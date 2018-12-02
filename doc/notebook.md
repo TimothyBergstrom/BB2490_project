@@ -9,3 +9,11 @@ since it will be easy to follow any commits and timeline of project.
 
 First meeting, and we created the project plan. Our plan is to first familiarize ourselfs with the programs, then try to recreate two plots with the data from the paper.
 
+
+### 2018-12-01, 16:00
+
+I got a license for MaxQuant and installed it on my computer.  I'm about to install quandenser, and my idea is to make an ssh server which
+the other in my group can log into.
+
+
+

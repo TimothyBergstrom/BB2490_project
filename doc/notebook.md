@@ -12,14 +12,23 @@ First meeting, and we created the project plan. Our plan is to first familiarize
 
 ### 2018-12-01, 16:00
 
-I got a license for MaxQuant and installed it on my computer.  I'm about to install quandenser, and my idea is to make an ssh server which
-the other in my group can log into.
+I got a license for MaxQuant and installed it on my computer and installed it.
+I'm about to install quandenser, and my idea is to make an ssh server which the other in my group can log into.
 
 
 ### 2018-12-01,16:30
 
 I've been struggling with installing Quandenser. The command "git clone --recursive https://github.com/statisticalbiotechnology/quandenser.git" seems to breaks when try it.
 Sometimes it says "Public key" is denied and other times that "Connection error". I tested on multiple networks, so I cant be that.
+
+
+### 2018-12-01, 16:45
+
+It seems to be something strange when cloning the other modules. No matter, I manually cloned each one with "git clone <LINK_TO_REPO>".
+It seems to install now, but it crashes when fixing boost.
+
+
+
 
 
 

@@ -56,22 +56,29 @@ The error was "Cannot create module Dinosaur, mvn execution failed"
 
 Percolator and maracluster compiles fine
 Something is crashing on this line in CMakeLists:
+
 "execute_process(COMMAND mvn package -Pconf -DskipTests -Ddir=${CMAKE_CURRENT_BINARY_DIR}/dinosaur WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/ext/dinosaur RESULT_VARIABLE MVN_RESULT)"
+
 The "mvn" is a java tool. I thought I already installed java with "apt-get install default-jdk" with version openjdk 10.0.2, but Ill reinstall it and see what happens.
 
 
 ### 2018-12-02, 14:50
 
 Reinstalling java did not work, but installing maven with "sudo apt install maven" made it run. However it crashed once again...
+
 "Failed to execute goal org.scala-tools:maven-scala-plugin:2.15.2:compile (default) on project Dinosaur: wrap: org.apache.commons.exec.ExecuteException: Process exited with an error: 1(Exit value: 1) -> [Help 1]"
+
 using mvn -X to get full debug, it seems that some dependencies are missing.
 
 
 ### 2018-12-02, 15:00
 
 Okay, default-jdk is "openjdk" which is not the same as oracles own like I thought it was. Installing oracles java after purging openjdk makes dinosaur compile. However, there is another error, once again...
+
 maracluster/CMakeFiles/maracluster.dir/build.make:113: recipe for target 'maracluster/maracluster' failed
+
 [ 29%] Linking CXX executable maracluster crashes here
+
 Apperently maracluster fails due to "unreferenced" dependencies in some compiled functions. Perhaps the other boost libraries are making the crashes?
 
 

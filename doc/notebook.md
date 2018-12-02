@@ -16,4 +16,10 @@ I got a license for MaxQuant and installed it on my computer.  I'm about to inst
 the other in my group can log into.
 
 
+### 2018-12-01,16:30
+
+I've been struggling with installing Quandenser. The command "git clone --recursive https://github.com/statisticalbiotechnology/quandenser.git" seems to breaks when try it.
+Sometimes it says "Public key" is denied and other times that "Connection error". I tested on multiple networks, so I cant be that.
+
+
 

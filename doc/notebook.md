@@ -132,5 +132,21 @@ Call Stack (most recent call first):
 However, the .deb file works, so it doesn't matter at the moment.
 
 
+### 2018-12-03, 15:10
 
+I really wanted to see what the problem was with the libraries, so I continued to debug it.
+I found why the boost libraries does not compile. It was pretty simple:
+I had gcc installed from before (I have a course in C programming) and I tested on a non-fresh install of ubuntu, 
+so FindBoost detects that I have gcc7 installed, thus it looks for files named:
+
+"libboost_filesystem-gcc7-mt-s.a"
+
+while the lib files are called 
+
+"libboost_filesystem-gcc-mt-s.a".
+
+The output of the terminal when gcc have not been renamed has been added to "terminal_output" folder with the name "gcc_problem.txt"
+
+Adding "7" to all filenames with gcc in them made it work. I successfully compiled the .deb file (which was already found in the release folder)
+Maybe I'll test it on a fresh install of ubuntu to see if the problem persist, maybe it was just a collision between already installed gcc.
 

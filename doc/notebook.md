@@ -147,6 +147,6 @@ while the lib files are called
 
 The output of the terminal when gcc have not been renamed has been added to "terminal_output" folder with the name "gcc_problem.txt"
 
-Adding "7" to all filenames with gcc in them made it work. I successfully compiled the .deb file (which was already found in the release folder)
+Adding "7" to all filenames with gcc in them made it work. I successfully compiled the .deb file (which was already found in the release folder in github)
 Maybe I'll test it on a fresh install of ubuntu to see if the problem persist, maybe it was just a collision between already installed gcc.
 

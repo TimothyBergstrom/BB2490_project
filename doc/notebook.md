@@ -86,3 +86,51 @@ Apperently maracluster fails due to "unreferenced" dependencies in some compiled
 
 I just can't get it to work. I've tried a lot of stuff, purging the old boost files and trying to make FindBoost find the static libraries, but to no avail.
 
+
+### 2018-12-03, 14:20
+
+I got it to work with the help of Lukas Käll and Patrick Truong. Instead of compiling everything from scratch, I forgot to look at the "releases" folder where the .deb files are stored. My fault.
+
+I also found what the problem was with both the compilation and the --recursive issues. The problem was intranet-issues + antivirus. I tried to install on both my laptop and my desktop on 2 networks, my home router and using my phone as a hotspot by sharing the 4g connection.
+I had added a ssh-key to my account beforehand for both laptop and desktop, so it was not that problem.
+
+The AV blocked some packages from downloading (for some reason) making the dependencies fail. I deactivated my AV beforehand to test whether that was the problem after a fresh Ubuntu installation and the packages installed correctly.
+The intranet blocked incoming traffic from port 22 for some reason, even though I had the port-forwarded to my computer. I tried to force the ssh to use port 443 instead in the /etc/ssh/ssh_config, but with the same issues.
+The phone did it as well, but later found out that using ssh from a hotspot does not work. https://android.stackexchange.com/questions/120819/ssh-tunnel-through-android-device
+
+So this means that neither networks worked.
+
+However, I went to school and tested it on the network there. Now, downloading the repos recursively works fine (since there is no block when using the intranet in school). The AV does not block any packages, since it is deactivated.
+However, the problem with Boost libraries persist. It still says:
+
+CMake Error at /usr/share/cmake-3.10/Modules/FindBoost.cmake:1947 (message):
+  Unable to find the requested Boost libraries.
+
+  Boost version: 1.56.0
+
+  Boost include path:
+  /mnt/c/Users/timot/Downloads/BB2490/build/ubuntu64/tools/include
+
+  Could not find the following static Boost libraries:
+
+          boost_filesystem
+          boost_iostreams
+          boost_regex
+          boost_thread
+          boost_serialization
+          boost_system
+          boost_chrono
+
+  Some (but not all) of the required Boost libraries were found.  You may
+  need to install these additional Boost libraries.  Alternatively, set
+  BOOST_LIBRARYDIR to the directory containing Boost libraries or BOOST_ROOT
+  to the location of Boost.
+Call Stack (most recent call first):
+  ext/maracluster/src/CMakeLists.txt:22 (find_package)
+  
+  
+However, the .deb file works, so it doesn't matter at the moment.
+
+
+
+

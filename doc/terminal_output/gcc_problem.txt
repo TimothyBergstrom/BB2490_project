@@ -1,0 +1,199 @@
+root@LAPTOP-RHD66J7P:/mnt/c/Users/timot/Downloads/BB2490/quandenser# ./quickbuild.sh
+Hit:1 http://ppa.launchpad.net/webupd8team/java/ubuntu bionic InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu bionic InRelease
+Get:3 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+Get:4 http://security.ubuntu.com/ubuntu bionic-security InRelease [83.2 kB]
+Get:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+Fetched 247 kB in 11s (21.5 kB/s)
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Calculating upgrade... Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+cmake is already the newest version (3.10.2-1ubuntu2).
+make is already the newest version (4.1-9.1ubuntu1).
+maven is already the newest version (3.5.2-2).
+g++ is already the newest version (4:7.3.0-3ubuntu2.1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+cmake quandenser.....-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning (dev) at /usr/share/cmake-3.10/Modules/FindOpenMP.cmake:310 (if):
+  if given arguments:
+
+    "TRUE"
+
+  An argument named "TRUE" appears in a conditional statement.  Policy
+  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.10/Modules/FindOpenMP.cmake:425 (_OPENMP_GET_SPEC_DATE)
+  CommonCMake.txt:183 (find_package)
+  CMakeLists.txt:7 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found OpenMP_C: -fopenmp
+CMake Warning (dev) at /usr/share/cmake-3.10/Modules/FindOpenMP.cmake:310 (if):
+  if given arguments:
+
+    "TRUE"
+
+  An argument named "TRUE" appears in a conditional statement.  Policy
+  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.10/Modules/FindOpenMP.cmake:425 (_OPENMP_GET_SPEC_DATE)
+  CommonCMake.txt:183 (find_package)
+  CMakeLists.txt:7 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found OpenMP_CXX: -fopenmp
+-- Found OpenMP: TRUE
+--
+-- -------------------------------------------------------------------------------
+-- Building QUANDENSER:
+-- change a configuration variable with: cmake -D<Variable>=<Value>
+-- CMAKE_INSTALL_PREFIX = /usr
+-- CMAKE_BUILD_TYPE = Release
+-- CMAKE_PREFIX_PATH = /mnt/c/Users/timot/Downloads/BB2490/quandenser/../build/ubuntu64/tools, /mnt/c/Users/timot/Downloads/BB2490/quandenser/cmake
+-- TARGET_ARCH = amd64
+-- TOOL CHAIN FILE =
+-- PROFILING =
+-- -------------------------------------------------------------------------------
+-- QUANDENSER options:
+-- VENDOR_SUPPORT = OFF
+-- -------------------------------------------------------------------------------
+--
+-- Architecture: amd64
+CMake Warning (dev) at /usr/share/cmake-3.10/Modules/FindOpenMP.cmake:310 (if):
+  if given arguments:
+
+    "TRUE"
+
+  An argument named "TRUE" appears in a conditional statement.  Policy
+  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.10/Modules/FindOpenMP.cmake:425 (_OPENMP_GET_SPEC_DATE)
+  ext/maracluster/CommonCMake.txt:170 (find_package)
+  CMakeLists.txt:55 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found OpenMP_C: -fopenmp
+CMake Warning (dev) at /usr/share/cmake-3.10/Modules/FindOpenMP.cmake:310 (if):
+  if given arguments:
+
+    "TRUE"
+
+  An argument named "TRUE" appears in a conditional statement.  Policy
+  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.10/Modules/FindOpenMP.cmake:425 (_OPENMP_GET_SPEC_DATE)
+  ext/maracluster/CommonCMake.txt:170 (find_package)
+  CMakeLists.txt:55 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found OpenMP_CXX: -fopenmp
+-- Checking packages:
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1094 ] _boost_TEST_VERSIONS = 1.43.0;1.65.1;1.65.0;1.65;1.64.0;1.64;1.63.0;1.63;1.62.0;1.62;1.61.0;1.61;1.60.0;1.60;1.59.0;1.59;1.58.0;1.58;1.57.0;1.57;1.56.0;1.56;1.55.0;1.55;1.54.0;1.54;1.53.0;1.53;1.52.0;1.52;1.51.0;1.51;1.50.0;1.50;1.49.0;1.49;1.48.0;1.48;1.47.0;1.47;1.46.1;1.46.0;1.46;1.45.0;1.45;1.44.0;1.44;1.43.0;1.43
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1096 ] Boost_USE_MULTITHREADED = ON
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1098 ] Boost_USE_STATIC_LIBS = ON
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1100 ] Boost_USE_STATIC_RUNTIME = ON
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1102 ] Boost_ADDITIONAL_VERSIONS = 1.43.0
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1104 ] Boost_NO_SYSTEM_PATHS =
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1172 ] Declared as CMake or Environmental Variables:
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1174 ]   BOOST_ROOT =
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1176 ]   BOOST_INCLUDEDIR =
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1178 ]   BOOST_LIBRARYDIR =
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1180 ] _boost_TEST_VERSIONS = 1.43.0;1.65.1;1.65.0;1.65;1.64.0;1.64;1.63.0;1.63;1.62.0;1.62;1.61.0;1.61;1.60.0;1.60;1.59.0;1.59;1.58.0;1.58;1.57.0;1.57;1.56.0;1.56;1.55.0;1.55;1.54.0;1.54;1.53.0;1.53;1.52.0;1.52;1.51.0;1.51;1.50.0;1.50;1.49.0;1.49;1.48.0;1.48;1.47.0;1.47;1.46.1;1.46.0;1.46;1.45.0;1.45;1.44.0;1.44;1.43.0;1.43
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1255 ] Include debugging info:
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1257 ]   _boost_INCLUDE_SEARCH_DIRS = PATHS;C:/boost/include;C:/boost;/sw/local/include
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1259 ]   _boost_PATH_SUFFIXES = boost-1_43_0;boost_1_43_0;boost/boost-1_43_0;boost/boost_1_43_0;boost-1_65_1;boost_1_65_1;boost/boost-1_65_1;boost/boost_1_65_1;boost-1_65_0;boost_1_65_0;boost/boost-1_65_0;boost/boost_1_65_0;boost-1_65;boost_1_65;boost/boost-1_65;boost/boost_1_65;boost-1_64_0;boost_1_64_0;boost/boost-1_64_0;boost/boost_1_64_0;boost-1_64;boost_1_64;boost/boost-1_64;boost/boost_1_64;boost-1_63_0;boost_1_63_0;boost/boost-1_63_0;boost/boost_1_63_0;boost-1_63;boost_1_63;boost/boost-1_63;boost/boost_1_63;boost-1_62_0;boost_1_62_0;boost/boost-1_62_0;boost/boost_1_62_0;boost-1_62;boost_1_62;boost/boost-1_62;boost/boost_1_62;boost-1_61_0;boost_1_61_0;boost/boost-1_61_0;boost/boost_1_61_0;boost-1_61;boost_1_61;boost/boost-1_61;boost/boost_1_61;boost-1_60_0;boost_1_60_0;boost/boost-1_60_0;boost/boost_1_60_0;boost-1_60;boost_1_60;boost/boost-1_60;boost/boost_1_60;boost-1_59_0;boost_1_59_0;boost/boost-1_59_0;boost/boost_1_59_0;boost-1_59;boost_1_59;boost/boost-1_59;boost/boost_1_59;boost-1_58_0;boost_1_58_0;boost/boost-1_58_0;boost/boost_1_58_0;boost-1_58;boost_1_58;boost/boost-1_58;boost/boost_1_58;boost-1_57_0;boost_1_57_0;boost/boost-1_57_0;boost/boost_1_57_0;boost-1_57;boost_1_57;boost/boost-1_57;boost/boost_1_57;boost-1_56_0;boost_1_56_0;boost/boost-1_56_0;boost/boost_1_56_0;boost-1_56;boost_1_56;boost/boost-1_56;boost/boost_1_56;boost-1_55_0;boost_1_55_0;boost/boost-1_55_0;boost/boost_1_55_0;boost-1_55;boost_1_55;boost/boost-1_55;boost/boost_1_55;boost-1_54_0;boost_1_54_0;boost/boost-1_54_0;boost/boost_1_54_0;boost-1_54;boost_1_54;boost/boost-1_54;boost/boost_1_54;boost-1_53_0;boost_1_53_0;boost/boost-1_53_0;boost/boost_1_53_0;boost-1_53;boost_1_53;boost/boost-1_53;boost/boost_1_53;boost-1_52_0;boost_1_52_0;boost/boost-1_52_0;boost/boost_1_52_0;boost-1_52;boost_1_52;boost/boost-1_52;boost/boost_1_52;boost-1_51_0;boost_1_51_0;boost/boost-1_51_0;boost/boost_1_51_0;boost-1_51;boost_1_51;boost/boost-1_51;boost/boost_1_51;boost-1_50_0;boost_1_50_0;boost/boost-1_50_0;boost/boost_1_50_0;boost-1_50;boost_1_50;boost/boost-1_50;boost/boost_1_50;boost-1_49_0;boost_1_49_0;boost/boost-1_49_0;boost/boost_1_49_0;boost-1_49;boost_1_49;boost/boost-1_49;boost/boost_1_49;boost-1_48_0;boost_1_48_0;boost/boost-1_48_0;boost/boost_1_48_0;boost-1_48;boost_1_48;boost/boost-1_48;boost/boost_1_48;boost-1_47_0;boost_1_47_0;boost/boost-1_47_0;boost/boost_1_47_0;boost-1_47;boost_1_47;boost/boost-1_47;boost/boost_1_47;boost-1_46_1;boost_1_46_1;boost/boost-1_46_1;boost/boost_1_46_1;boost-1_46_0;boost_1_46_0;boost/boost-1_46_0;boost/boost_1_46_0;boost-1_46;boost_1_46;boost/boost-1_46;boost/boost_1_46;boost-1_45_0;boost_1_45_0;boost/boost-1_45_0;boost/boost_1_45_0;boost-1_45;boost_1_45;boost/boost-1_45;boost/boost_1_45;boost-1_44_0;boost_1_44_0;boost/boost-1_44_0;boost/boost_1_44_0;boost-1_44;boost_1_44;boost/boost-1_44;boost/boost_1_44;boost-1_43_0;boost_1_43_0;boost/boost-1_43_0;boost/boost_1_43_0;boost-1_43;boost_1_43;boost/boost-1_43;boost/boost_1_43
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1279 ] location of version.hpp: /mnt/c/Users/timot/Downloads/BB2490/build/ubuntu64/tools/include/boost/version.hpp
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1303 ] version.hpp reveals boost 1.56.0
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1389 ] guessed _boost_COMPILER = -gcc7
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1399 ] _boost_MULTITHREADED = -mt
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1443 ] _boost_RELEASE_ABI_TAG = -s
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1445 ] _boost_DEBUG_ABI_TAG = -sd
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1507 ] _boost_LIBRARY_SEARCH_DIRS_RELEASE = /mnt/c/Users/timot/Downloads/BB2490/build/ubuntu64/tools/include/lib;/mnt/c/Users/timot/Downloads/BB2490/build/ubuntu64/tools/include/../lib;/mnt/c/Users/timot/Downloads/BB2490/build/ubuntu64/tools/include/stage/lib;PATHS;C:/boost/lib;C:/boost;/sw/local/lib_boost_LIBRARY_SEARCH_DIRS_DEBUG   = /mnt/c/Users/timot/Downloads/BB2490/build/ubuntu64/tools/include/lib;/mnt/c/Users/timot/Downloads/BB2490/build/ubuntu64/tools/include/../lib;/mnt/c/Users/timot/Downloads/BB2490/build/ubuntu64/tools/include/stage/lib;PATHS;C:/boost/lib;C:/boost;/sw/local/lib
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1657 ] Searching for FILESYSTEM_LIBRARY_RELEASE: boost_filesystem-gcc7-mt-s-1_56;boost_filesystem-gcc7-mt-s;boost_filesystem-mt-s-1_56;boost_filesystem-mt-s;boost_filesystem
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1708 ] Searching for FILESYSTEM_LIBRARY_DEBUG: boost_filesystem-gcc7-mt-sd-1_56;boost_filesystem-gcc7-mt-sd;boost_filesystem-mt-sd-1_56;boost_filesystem-mt-sd;boost_filesystem-mt;boost_filesystem
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1657 ] Searching for IOSTREAMS_LIBRARY_RELEASE: boost_iostreams-gcc7-mt-s-1_56;boost_iostreams-gcc7-mt-s;boost_iostreams-mt-s-1_56;boost_iostreams-mt-s;boost_iostreams
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1708 ] Searching for IOSTREAMS_LIBRARY_DEBUG: boost_iostreams-gcc7-mt-sd-1_56;boost_iostreams-gcc7-mt-sd;boost_iostreams-mt-sd-1_56;boost_iostreams-mt-sd;boost_iostreams-mt;boost_iostreams
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1657 ] Searching for REGEX_LIBRARY_RELEASE: boost_regex-gcc7-mt-s-1_56;boost_regex-gcc7-mt-s;boost_regex-mt-s-1_56;boost_regex-mt-s;boost_regex
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1708 ] Searching for REGEX_LIBRARY_DEBUG: boost_regex-gcc7-mt-sd-1_56;boost_regex-gcc7-mt-sd;boost_regex-mt-sd-1_56;boost_regex-mt-sd;boost_regex-mt;boost_regex
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1657 ] Searching for THREAD_LIBRARY_RELEASE: boost_thread-gcc7-mt-s-1_56;boost_thread-gcc7-mt-s;boost_thread-mt-s-1_56;boost_thread-mt-s;boost_thread
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1708 ] Searching for THREAD_LIBRARY_DEBUG: boost_thread-gcc7-mt-sd-1_56;boost_thread-gcc7-mt-sd;boost_thread-mt-sd-1_56;boost_thread-mt-sd;boost_thread-mt;boost_thread
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1657 ] Searching for SERIALIZATION_LIBRARY_RELEASE: boost_serialization-gcc7-mt-s-1_56;boost_serialization-gcc7-mt-s;boost_serialization-mt-s-1_56;boost_serialization-mt-s;boost_serialization
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1708 ] Searching for SERIALIZATION_LIBRARY_DEBUG: boost_serialization-gcc7-mt-sd-1_56;boost_serialization-gcc7-mt-sd;boost_serialization-mt-sd-1_56;boost_serialization-mt-sd;boost_serialization-mt;boost_serialization
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1657 ] Searching for SYSTEM_LIBRARY_RELEASE: boost_system-gcc7-mt-s-1_56;boost_system-gcc7-mt-s;boost_system-mt-s-1_56;boost_system-mt-s;boost_system
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1708 ] Searching for SYSTEM_LIBRARY_DEBUG: boost_system-gcc7-mt-sd-1_56;boost_system-gcc7-mt-sd;boost_system-mt-sd-1_56;boost_system-mt-sd;boost_system-mt;boost_system
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1657 ] Searching for CHRONO_LIBRARY_RELEASE: boost_chrono-gcc7-mt-s-1_56;boost_chrono-gcc7-mt-s;boost_chrono-mt-s-1_56;boost_chrono-mt-s;boost_chrono
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1708 ] Searching for CHRONO_LIBRARY_DEBUG: boost_chrono-gcc7-mt-sd-1_56;boost_chrono-gcc7-mt-sd;boost_chrono-mt-sd-1_56;boost_chrono-mt-sd;boost_chrono-mt;boost_chrono
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1657 ] Searching for DATE_TIME_LIBRARY_RELEASE: boost_date_time-gcc7-mt-s-1_56;boost_date_time-gcc7-mt-s;boost_date_time-mt-s-1_56;boost_date_time-mt-s;boost_date_time
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1708 ] Searching for DATE_TIME_LIBRARY_DEBUG: boost_date_time-gcc7-mt-sd-1_56;boost_date_time-gcc7-mt-sd;boost_date_time-mt-sd-1_56;boost_date_time-mt-sd;boost_date_time-mt;boost_date_time
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1657 ] Searching for ATOMIC_LIBRARY_RELEASE: boost_atomic-gcc7-mt-s-1_56;boost_atomic-gcc7-mt-s;boost_atomic-mt-s-1_56;boost_atomic-mt-s;boost_atomic
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1708 ] Searching for ATOMIC_LIBRARY_DEBUG: boost_atomic-gcc7-mt-sd-1_56;boost_atomic-gcc7-mt-sd;boost_atomic-mt-sd-1_56;boost_atomic-mt-sd;boost_atomic-mt;boost_atomic
+-- [ /usr/share/cmake-3.10/Modules/FindBoost.cmake:1783 ] Boost_FOUND = 1
+CMake Error at /usr/share/cmake-3.10/Modules/FindBoost.cmake:1947 (message):
+  Unable to find the requested Boost libraries.
+
+  Boost version: 1.56.0
+
+  Boost include path:
+  /mnt/c/Users/timot/Downloads/BB2490/build/ubuntu64/tools/include
+
+  Could not find the following static Boost libraries:
+
+          boost_filesystem
+          boost_iostreams
+          boost_regex
+          boost_thread
+          boost_serialization
+          boost_system
+          boost_chrono
+
+  Some (but not all) of the required Boost libraries were found.  You may
+  need to install these additional Boost libraries.  Alternatively, set
+  BOOST_LIBRARYDIR to the directory containing Boost libraries or BOOST_ROOT
+  to the location of Boost.
+Call Stack (most recent call first):
+  ext/maracluster/src/CMakeLists.txt:23 (find_package)
+
+
+CMake Error at ext/maracluster/src/CMakeLists.txt:27 (message):
+  Boost has not been found
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/c/Users/timot/Downloads/BB2490/build/ubuntu64/quandenser/CMakeFiles/CMakeOutput.log".
+make quandenser (this will take few minutes).....make: *** No targets specified and no makefile found.  Stop.
+make: *** No rule to make target 'package'.  Stop.
+make: *** No rule to make target 'install'.  Stop.
+cp: cannot stat '/mnt/c/Users/timot/Downloads/BB2490/quandenser/../build/ubuntu64/quandenser/quan*.deb': No such file or directory
+root@LAPTOP-RHD66J7P:/mnt/c/Users/timot/Downloads/BB2490/quandenser#

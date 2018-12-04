@@ -163,3 +163,30 @@ Instead of downloading every RAW file by itself and converting it to mzML, I cre
 The script can be find in /bin. I also created a simple .sh script that outputs a batch.txt with full path to the mzML files, which quandenser uses.
 Downloading all the data will take about 24 hours.
 
+
+### 2018-12-04, 14:00
+
+I ran quandenser with the test data over night and it took about 2 hours to complete.
+
+Output: Running Quandenser took: 7411.55 cpu seconds or 7369 seconds wall time
+
+The ouput of the terminal has been added to results/example with the .tsv files which tiqluer outputs.
+
+The test data sets were about 4.02 Gb in size. If the run time is linear, this means computing 147 Gb worth of MS data would take about 74 hours (in best case).
+I'll discuss in the meeting if we could divide the data files so each group member can take a part of the set and do the calculation to speed it up.
+
+I also discovered that quandenser can take batch.txt in the format <PATH_TO_mzML> <A/B> where A or B seems to correspond to sample (ex. cell colony in environment)
+so the .sh file might not work. I need to investigate further if I have understood it correctly.
+
+
+### 2018-12-04, 17:00
+
+Our group had a meeting where we discussed the project. We sent a mail to Michael Jahn about some questions about the data file naming and our project plan.
+My group members will also try to calculate the example set, to see if they get the same output.
+We also talked briefly about dividing the data sets to minimize computational time. 
+
+
+### 2018-12-04, 21:50
+
+I will try and record the CPU and RAM usage of quandenser, and maybe dial down the RAM allocated to Dinosaur. Perhaps I could run two parallel processes at once, each process
+calculating a couple of mzML files (such as light/co2).

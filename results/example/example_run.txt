@@ -1,0 +1,3587 @@
+root@DESKTOP-NUGQV58:/mnt/d/Downloads/BB2490/data/Example# ./run.sh
+Quandenser version 0.01.0, Build Date Nov 27 2018 17:02:28
+Copyright (c) 2015-17 Matthew The. All rights reserved.
+Written by Matthew The (matthew.the@scilifelab.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+quandenser --batch file_list.txt --max-missing 3 --dinosaur-memory 16G
+Started Mon Dec  3 22:34:51 2018
+
+Processing "A1.mzML" with Dinosaur.
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/dinosaur mzML/A1.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/A1.mzML
+    out dir: Quandenser_output/dinosaur
+   out name: A1
+
+.                              .
+[==============================]all hills, n=927733
+hill checkSum = 324631374093509
+peaky hills, n=916241
+peaky hill checkSum = 317221605628003
+  nScans    nHills
+         2        0
+         3   257503
+         4   140685
+      5-10   279192
+     10-20   151649
+     20-50    76478
+    50-100     9668
+   100-200     1066
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+edges assembled
+clusters ripped, n=122134
+clusters deconvolved
+deisotoping complete
+isotopes, n=114929
+writing isotope pattern reports...
+isotope pattern reports written
+
+=== OUTPUT ===
+  writing global isotope pattern file Quandenser_output/dinosaur/A1.features.tsv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:34.266
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:25.278
+          deisotope time: _ days __:_1:02.205
+ iso pattern report time: _ days __:__:__.__6
+         mass calib time: _ days __:__:_1.250
+              write time: _ days __:__:_1.593
+
+         deiso edge time: _ days __:__:23.328
+          deiso rip time: _ days __:__:__.333
+       deiso deconv time: _ days __:__:38.541
+
+total time: _ days __:_2:07.232
+Processing "A2.mzML" with Dinosaur.
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/dinosaur mzML/A2.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/A2.mzML
+    out dir: Quandenser_output/dinosaur
+   out name: A2
+
+.                              .
+[==============================]all hills, n=914241
+hill checkSum = 314638610599904
+peaky hills, n=903370
+peaky hill checkSum = 307732241365332
+  nScans    nHills
+         2        0
+         3   253940
+         4   139200
+      5-10   273312
+     10-20   149872
+     20-50    76236
+    50-100     9775
+   100-200     1035
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+edges assembled
+clusters ripped, n=120639
+clusters deconvolved
+deisotoping complete
+isotopes, n=114115
+writing isotope pattern reports...
+isotope pattern reports written
+
+=== OUTPUT ===
+  writing global isotope pattern file Quandenser_output/dinosaur/A2.features.tsv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:35.047
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:27.526
+          deisotope time: _ days __:__:49.953
+ iso pattern report time: _ days __:__:__.__4
+         mass calib time: _ days __:__:__.882
+              write time: _ days __:__:_1.546
+
+         deiso edge time: _ days __:__:21.840
+          deiso rip time: _ days __:__:__.187
+       deiso deconv time: _ days __:__:27.923
+
+total time: _ days __:_1:55.569
+Processing "A3.mzML" with Dinosaur.
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/dinosaur mzML/A3.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/A3.mzML
+    out dir: Quandenser_output/dinosaur
+   out name: A3
+
+.                              .
+[==============================]all hills, n=921343
+hill checkSum = 319167467544691
+peaky hills, n=910008
+peaky hill checkSum = 311926351657668
+  nScans    nHills
+         2        0
+         3   255804
+         4   139758
+      5-10   277015
+     10-20   150079
+     20-50    76530
+    50-100     9730
+   100-200     1092
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+edges assembled
+clusters ripped, n=121023
+clusters deconvolved
+deisotoping complete
+isotopes, n=112883
+writing isotope pattern reports...
+isotope pattern reports written
+
+=== OUTPUT ===
+  writing global isotope pattern file Quandenser_output/dinosaur/A3.features.tsv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:35.690
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:25.902
+          deisotope time: _ days __:_1:06.685
+ iso pattern report time: _ days __:__:__.__4
+         mass calib time: _ days __:__:__.906
+              write time: _ days __:__:_1.468
+
+         deiso edge time: _ days __:__:22.555
+          deiso rip time: _ days __:__:__.191
+       deiso deconv time: _ days __:__:43.937
+
+total time: _ days __:_2:11.237
+Processing "B1.mzML" with Dinosaur.
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/dinosaur mzML/B1.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/B1.mzML
+    out dir: Quandenser_output/dinosaur
+   out name: B1
+
+.                              .
+[==============================]all hills, n=909707
+hill checkSum = 312186326004726
+peaky hills, n=899333
+peaky hill checkSum = 305617100588439
+  nScans    nHills
+         2        0
+         3   260432
+         4   140996
+      5-10   272303
+     10-20   145050
+     20-50    71151
+    50-100     8444
+   100-200      957
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+edges assembled
+clusters ripped, n=121088
+clusters deconvolved
+deisotoping complete
+isotopes, n=113974
+writing isotope pattern reports...
+isotope pattern reports written
+
+=== OUTPUT ===
+  writing global isotope pattern file Quandenser_output/dinosaur/B1.features.tsv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:35.706
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:23.971
+          deisotope time: _ days __:__:47.990
+ iso pattern report time: _ days __:__:__.__4
+         mass calib time: _ days __:__:__.935
+              write time: _ days __:__:_1.592
+
+         deiso edge time: _ days __:__:21.713
+          deiso rip time: _ days __:__:__.194
+       deiso deconv time: _ days __:__:26.081
+
+total time: _ days __:_1:50.797
+Processing "B2.mzML" with Dinosaur.
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/dinosaur mzML/B2.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/B2.mzML
+    out dir: Quandenser_output/dinosaur
+   out name: B2
+
+.                              .
+[==============================]all hills, n=915504
+hill checkSum = 316368474672949
+peaky hills, n=904930
+peaky hill checkSum = 309604260893253
+  nScans    nHills
+         2        0
+         3   263343
+         4   141140
+      5-10   274138
+     10-20   145578
+     20-50    71272
+    50-100     8541
+   100-200      918
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+edges assembled
+clusters ripped, n=121951
+clusters deconvolved
+deisotoping complete
+isotopes, n=113790
+writing isotope pattern reports...
+isotope pattern reports written
+
+=== OUTPUT ===
+  writing global isotope pattern file Quandenser_output/dinosaur/B2.features.tsv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:35.114
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:25.947
+          deisotope time: _ days __:__:44.575
+ iso pattern report time: _ days __:__:__.__4
+         mass calib time: _ days __:__:_1.029
+              write time: _ days __:__:_1.502
+
+         deiso edge time: _ days __:__:21.238
+          deiso rip time: _ days __:__:__.191
+       deiso deconv time: _ days __:__:23.144
+
+total time: _ days __:_1:48.766
+Processing "B3.mzML" with Dinosaur.
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/dinosaur mzML/B3.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/B3.mzML
+    out dir: Quandenser_output/dinosaur
+   out name: B3
+
+.                              .
+[==============================]all hills, n=908824
+hill checkSum = 311174238531277
+peaky hills, n=898266
+peaky hill checkSum = 304500414065975
+  nScans    nHills
+         2        0
+         3   261057
+         4   140241
+      5-10   270961
+     10-20   144985
+     20-50    71581
+    50-100     8506
+   100-200      935
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+edges assembled
+clusters ripped, n=120149
+clusters deconvolved
+deisotoping complete
+isotopes, n=112454
+writing isotope pattern reports...
+isotope pattern reports written
+
+=== OUTPUT ===
+  writing global isotope pattern file Quandenser_output/dinosaur/B3.features.tsv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:35.258
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:23.869
+          deisotope time: _ days __:__:50.110
+ iso pattern report time: _ days __:__:__.__4
+         mass calib time: _ days __:__:__.901
+              write time: _ days __:__:_1.422
+
+         deiso edge time: _ days __:__:22.745
+          deiso rip time: _ days __:__:__.402
+       deiso deconv time: _ days __:__:26.961
+
+total time: _ days __:_1:52.169
+Processing "C1.mzML" with Dinosaur.
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/dinosaur mzML/C1.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/C1.mzML
+    out dir: Quandenser_output/dinosaur
+   out name: C1
+
+.                              .
+[==============================]all hills, n=885425
+hill checkSum = 285307872424476
+peaky hills, n=872610
+peaky hill checkSum = 277653444342988
+  nScans    nHills
+         2        0
+         3   236122
+         4   130068
+      5-10   267832
+     10-20   150404
+     20-50    76122
+    50-100    10760
+   100-200     1302
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+edges assembled
+clusters ripped, n=115831
+clusters deconvolved
+deisotoping complete
+isotopes, n=107611
+writing isotope pattern reports...
+isotope pattern reports written
+
+=== OUTPUT ===
+  writing global isotope pattern file Quandenser_output/dinosaur/C1.features.tsv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:35.412
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:26.116
+          deisotope time: _ days __:__:40.672
+ iso pattern report time: _ days __:__:__.__3
+         mass calib time: _ days __:__:__.856
+              write time: _ days __:__:_1.662
+
+         deiso edge time: _ days __:__:19.884
+          deiso rip time: _ days __:__:__.187
+       deiso deconv time: _ days __:__:20.597
+
+total time: _ days __:_1:45.302
+Processing "C2.mzML" with Dinosaur.
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/dinosaur mzML/C2.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/C2.mzML
+    out dir: Quandenser_output/dinosaur
+   out name: C2
+
+.                              .
+[==============================]all hills, n=887877
+hill checkSum = 286477507571068
+peaky hills, n=875064
+peaky hill checkSum = 278831431225881
+  nScans    nHills
+         2        0
+         3   235486
+         4   130287
+      5-10   268124
+     10-20   151802
+     20-50    77426
+    50-100    10609
+   100-200     1330
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+edges assembled
+clusters ripped, n=115353
+clusters deconvolved
+deisotoping complete
+isotopes, n=106957
+writing isotope pattern reports...
+isotope pattern reports written
+
+=== OUTPUT ===
+  writing global isotope pattern file Quandenser_output/dinosaur/C2.features.tsv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:34.861
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:27.360
+          deisotope time: _ days __:__:44.271
+ iso pattern report time: _ days __:__:__.__3
+         mass calib time: _ days __:__:__.798
+              write time: _ days __:__:_1.569
+
+         deiso edge time: _ days __:__:20.904
+          deiso rip time: _ days __:__:__.177
+       deiso deconv time: _ days __:__:23.188
+
+total time: _ days __:_1:49.462
+Processing "C3.mzML" with Dinosaur.
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/dinosaur mzML/C3.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/C3.mzML
+    out dir: Quandenser_output/dinosaur
+   out name: C3
+
+.                              .
+[==============================]all hills, n=899367
+hill checkSum = 294190557666566
+peaky hills, n=885902
+peaky hill checkSum = 286054389183206
+  nScans    nHills
+         2        0
+         3   238218
+         4   131029
+      5-10   271676
+     10-20   154615
+     20-50    78496
+    50-100    10591
+   100-200     1277
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+edges assembled
+clusters ripped, n=116532
+clusters deconvolved
+deisotoping complete
+isotopes, n=107434
+writing isotope pattern reports...
+isotope pattern reports written
+
+=== OUTPUT ===
+  writing global isotope pattern file Quandenser_output/dinosaur/C3.features.tsv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:35.668
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:27.462
+          deisotope time: _ days __:__:42.978
+ iso pattern report time: _ days __:__:__.__4
+         mass calib time: _ days __:__:_1.080
+              write time: _ days __:__:_1.353
+
+         deiso edge time: _ days __:__:20.760
+          deiso rip time: _ days __:__:__.181
+       deiso deconv time: _ days __:__:22.035
+
+total time: _ days __:_1:49.145
+Read in 114929 features from "A1.features.tsv"
+Read in 114115 features from "A2.features.tsv"
+Read in 112883 features from "A3.features.tsv"
+Read in 113974 features from "B1.features.tsv"
+Read in 113790 features from "B2.features.tsv"
+Read in 112454 features from "B3.features.tsv"
+Read in 107611 features from "C1.features.tsv"
+Read in 106957 features from "C2.features.tsv"
+Read in 107434 features from "C3.features.tsv"
+MaRaCluster version 0.05.nightly-3-f4d48a9, Build Date Nov 27 2018 17:01:56
+Copyright (c) 2015-17 Matthew The. All rights reserved.
+Written by Matthew The (matthew.the@scilifelab.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+maracluster batch --splitMassChargeStates --batch file_list.txt --clusterThresholds -10.0 --pvalThreshold -10.0 --output-folder Quandenser_output/maracluster
+Started Mon Dec  3 22:52:26 2018
+
+Splitting spectra by precursor Mz
+Accumulating peak counts and precursor Mzs
+  Processing mzML/A2.mzML (22%).
+  Processing mzML/C1.mzML (77%).
+  Processing mzML/B1.mzML (44%).
+  Processing mzML/B3.mzML (66%).
+  Processing mzML/A3.mzML (33%).
+  Processing mzML/A1.mzML (11%).
+  Processing mzML/C2.mzML (88%).
+  Processing mzML/B2.mzML (55%).
+  Processing mzML/C3.mzML (100%).
+Writing peak counts to file
+Finished writing peak counts to file
+Estimated number of pair comparisons: 8937129
+Dividing spectra in 1 bins of ~2 CPU hours each.
+  Processing mzML/A1.mzML (11%).
+  Processing mzML/C1.mzML (77%).
+  Processing mzML/B3.mzML (66%).
+  Processing mzML/C2.mzML (88%).
+  Processing mzML/A3.mzML (33%).
+  Processing mzML/A2.mzML (22%).
+  Processing mzML/B2.mzML (55%).
+  Processing mzML/B1.mzML (44%).
+  Processing mzML/C3.mzML (100%).
+Reading in spectra from Quandenser_output/maracluster/300.dat
+Read 346056 mass charge states.
+Inserting spectra into database
+Successfully inserted spectrum 1/346056 (0%)
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Successfully inserted spectrum 50001/346056 (14%)
+  Elapsed time: 29.2188 cpu seconds or 0 min 4 sec wall time.
+  Estimated time remaining: 0 min 23 sec wall time.
+Successfully inserted spectrum 100001/346056 (28%)
+  Elapsed time: 58.3906 cpu seconds or 0 min 8 sec wall time.
+  Estimated time remaining: 0 min 19 sec wall time.
+Successfully inserted spectrum 150001/346056 (43%)
+  Elapsed time: 88.3281 cpu seconds or 0 min 12 sec wall time.
+  Estimated time remaining: 0 min 15 sec wall time.
+Successfully inserted spectrum 200001/346056 (57%)
+  Elapsed time: 118.531 cpu seconds or 0 min 16 sec wall time.
+  Estimated time remaining: 0 min 11 sec wall time.
+Successfully inserted spectrum 250001/346056 (72%)
+  Elapsed time: 150.031 cpu seconds or 0 min 21 sec wall time.
+  Estimated time remaining: 0 min 8 sec wall time.
+Successfully inserted spectrum 300001/346056 (86%)
+  Elapsed time: 182.562 cpu seconds or 0 min 26 sec wall time.
+  Estimated time remaining: 0 min 3 sec wall time.
+Sorting pvalue vectors
+Reloaded 345945 pvalue vectors.
+Successfully inserted spectra into database
+Writing pvalue vectors
+Writing pvalue vector 0/345945
+Writing pvalue vector 100000/345945
+Writing pvalue vector 200000/345945
+Writing pvalue vector 300000/345945
+Finished writing pvalue vectors
+Calculating pvalues
+Reading precursor m/z limits.
+Processing pvalue vector 10001/345945 (2%).
+Processing pvalue vector 20001/345945 (5%).
+Processing pvalue vector 30001/345945 (8%).
+Processing pvalue vector 60001/345945 (17%).
+Processing pvalue vector 40001/345945 (11%).
+Processing pvalue vector 1/345945 (0%).
+Processing pvalue vector 50001/345945 (14%).
+Processing pvalue vector 70001/345945 (20%).
+Processing pvalue vector 80001/345945 (23%).
+Processing pvalue vector 90001/345945 (26%).
+Processing pvalue vector 100001/345945 (28%).
+Processing pvalue vector 110001/345945 (31%).
+Processing pvalue vector 120001/345945 (34%).
+Processing pvalue vector 130001/345945 (37%).
+Processing pvalue vector 140001/345945 (40%).
+Processing pvalue vector 150001/345945 (43%).
+Processing pvalue vector 160001/345945 (46%).
+Processing pvalue vector 170001/345945 (49%).
+Processing pvalue vector 180001/345945 (52%).
+Processing pvalue vector 190001/345945 (54%).
+Processing pvalue vector 200001/345945 (57%).
+Processing pvalue vector 210001/345945 (60%).
+Processing pvalue vector 220001/345945 (63%).
+Processing pvalue vector 230001/345945 (66%).
+Processing pvalue vector 240001/345945 (69%).
+Processing pvalue vector 250001/345945 (72%).
+Processing pvalue vector 260001/345945 (75%).
+Processing pvalue vector 270001/345945 (78%).
+Processing pvalue vector 280001/345945 (80%).
+Processing pvalue vector 290001/345945 (83%).
+Processing pvalue vector 300001/345945 (86%).
+Processing pvalue vector 310001/345945 (89%).
+Processing pvalue vector 320001/345945 (92%).
+Processing pvalue vector 330001/345945 (95%).
+Processing pvalue vector 340001/345945 (98%).
+Starting clustering job: batches 0-34
+Clustering 1014204 pvalues
+Starting MinHeap clustering
+  Loading new edges.
+It. 0: minRow = 1 32571, minCol = 4 32457, minEl = -69.3448, edgesLeft = 1014175
+It. 10000: minRow = 7 14867, minCol = 8 14841, minEl = -48.6992, edgesLeft = 1056274
+It. 20000: minRow = 3000000000 10433, minCol = 1 22158, minEl = -44.9275, edgesLeft = 1097938
+It. 30000: minRow = 3000000000 24050, minCol = 3000000000 10605, minEl = -42.2027, edgesLeft = 1137034
+It. 40000: minRow = 0 33114, minCol = 2 33220, minEl = -39.9178, edgesLeft = 1167032
+It. 50000: minRow = 0 13175, minCol = 2 13387, minEl = -37.7644, edgesLeft = 1186271
+It. 60000: minRow = 0 3047, minCol = 2 3221, minEl = -35.6677, edgesLeft = 1196599
+It. 70000: minRow = 6 8377, minCol = 7 8731, minEl = -33.5361, edgesLeft = 1191144
+It. 80000: minRow = 3000000000 50350, minCol = 6 10308, minEl = -31.2885, edgesLeft = 1164682
+It. 90000: minRow = 2 37282, minCol = 4 37321, minEl = -28.792, edgesLeft = 1113192
+It. 100000: minRow = 3000000000 31628, minCol = 2 9465, minEl = -25.906, edgesLeft = 1025591
+It. 110000: minRow = 3000000000 61221, minCol = 1 26779, minEl = -22.4906, edgesLeft = 892408
+It. 120000: minRow = 4 7538, minCol = 5 9038, minEl = -18.2479, edgesLeft = 678449
+It. 130000: minRow = 2 20658, minCol = 2 20714, minEl = -13.1652, edgesLeft = 320824
+Finished MinHeap clustering
+  Elapsed time: 3 cpu seconds or 0 min 3 sec wall time.
+Retained 28 pvalues
+  Elapsed time: 7.17188 cpu seconds or 0 min 4 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Starting poisoned clustering job: batches 0-0
+Clustering 28 pvalues
+Starting MinHeap clustering
+  Loading new edges.
+Finished MinHeap clustering
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Retained 0 pvalues
+Finished calculating pvalues.
+  Elapsed time: 7.17188 cpu seconds or 0 min 4 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Starting p-value clustering.
+Estimated 28 p-values in this file
+Writing 1 part files
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Sorting and filtering bin 1/1 (100%)
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Writing p-value 28/28 (100%)
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Starting MinHeap clustering
+  Creating cluster membership map.
+  Updating incomplete edges (0).
+  Loading new edges.
+  Sorting 28 edges.
+  Adding new edges.
+  Loaded new edges: new: 28, total: 28/28 (100%).
+It. 0: minRow = 4 7119, minCol = 8 6786, minEl = -34.2926
+Finished MinHeap clustering
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Reading in p-value tree.
+Reading in p-value tree.
+Reading in scan descriptions.
+WARNING: Could not find scan desc file.
+Writing clusterings for 1 thresholds.
+Writing clusters to Quandenser_output/maracluster/MaRaCluster.clusters_p10.tsv
+clust_size      #clusters       #spectra
+1       81217   81217
+2-3     18539   44670
+4-7     13579   71856
+8-15    5075    48358
+16-31   317     6095
+32-63   31      1375
+64-127  5       493
+128-255 1       227
+256-511 0       0
+512+    0       0
+total   118764  254291
+
+Finished writing clusterings.
+Running MaRaCluster took: 416.375 cpu seconds or 84 seconds wall time
+Serialized spectrum to precursor map
+Processing line 100000
+Processing line 200000
+Processing line 300000
+File pair (0,1): 26573 retention time pairs.
+File pair (0,2): 26053 retention time pairs.
+File pair (0,3): 18218 retention time pairs.
+File pair (0,4): 18301 retention time pairs.
+File pair (0,5): 18662 retention time pairs.
+File pair (0,6): 14909 retention time pairs.
+File pair (0,7): 15546 retention time pairs.
+File pair (0,8): 15550 retention time pairs.
+File pair (1,2): 26286 retention time pairs.
+File pair (1,3): 18424 retention time pairs.
+File pair (1,4): 18694 retention time pairs.
+File pair (1,5): 18997 retention time pairs.
+File pair (1,6): 15357 retention time pairs.
+File pair (1,7): 15910 retention time pairs.
+File pair (1,8): 16024 retention time pairs.
+File pair (2,3): 18324 retention time pairs.
+File pair (2,4): 18442 retention time pairs.
+File pair (2,5): 18991 retention time pairs.
+File pair (2,6): 15240 retention time pairs.
+File pair (2,7): 15784 retention time pairs.
+File pair (2,8): 15922 retention time pairs.
+File pair (3,4): 24839 retention time pairs.
+File pair (3,5): 25061 retention time pairs.
+File pair (3,6): 9623 retention time pairs.
+File pair (3,7): 9874 retention time pairs.
+File pair (3,8): 9951 retention time pairs.
+File pair (4,5): 25930 retention time pairs.
+File pair (4,6): 9846 retention time pairs.
+File pair (4,7): 10268 retention time pairs.
+File pair (4,8): 10239 retention time pairs.
+File pair (5,6): 10301 retention time pairs.
+File pair (5,7): 10666 retention time pairs.
+File pair (5,8): 10800 retention time pairs.
+File pair (6,7): 25194 retention time pairs.
+File pair (6,8): 25305 retention time pairs.
+File pair (7,8): 26985 retention time pairs.
+Aligned runs: 0 1: rmseComb = 0.832631 rmse1 = 0.589296 rmse2 = 0.588221
+Aligned runs: 0 2: rmseComb = 0.541622 rmse1 = 0.384383 rmse2 = 0.381581
+Aligned runs: 0 3: rmseComb = 0.395366 rmse1 = 0.279637 rmse2 = 0.279495
+Aligned runs: 0 4: rmseComb = 1.90763 rmse1 = 1.35781 rmse2 = 1.33992
+Aligned runs: 0 5: rmseComb = 1.80956 rmse1 = 1.27949 rmse2 = 1.27962
+Aligned runs: 0 6: rmseComb = 1.17193 rmse1 = 0.838876 rmse2 = 0.818358
+Aligned runs: 0 7: rmseComb = 1.73813 rmse1 = 1.22398 rmse2 = 1.23408
+Aligned runs: 0 8: rmseComb = 1.56933 rmse1 = 1.12061 rmse2 = 1.09864
+Aligned runs: 1 2: rmseComb = 1.03661 rmse1 = 0.735337 rmse2 = 0.730648
+Aligned runs: 1 3: rmseComb = 1.80152 rmse1 = 1.25583 rmse2 = 1.29166
+Aligned runs: 1 4: rmseComb = 0.455963 rmse1 = 0.32655 rmse2 = 0.318226
+Aligned runs: 1 5: rmseComb = 0.603898 rmse1 = 0.428064 rmse2 = 0.425974
+Aligned runs: 1 6: rmseComb = 1.48944 rmse1 = 1.05095 rmse2 = 1.05543
+Aligned runs: 1 7: rmseComb = 1.17591 rmse1 = 0.834177 rmse2 = 0.828797
+Aligned runs: 1 8: rmseComb = 1.51805 rmse1 = 1.06983 rmse2 = 1.077
+Aligned runs: 2 3: rmseComb = 0.803489 rmse1 = 0.566354 rmse2 = 0.569945
+Aligned runs: 2 4: rmseComb = 1.68149 rmse1 = 1.18677 rmse2 = 1.19121
+Aligned runs: 2 5: rmseComb = 1.62962 rmse1 = 1.15932 rmse2 = 1.14526
+Aligned runs: 2 6: rmseComb = 1.42471 rmse1 = 1.01317 rmse2 = 1.00165
+Aligned runs: 2 7: rmseComb = 1.50724 rmse1 = 1.06334 rmse2 = 1.06822
+Aligned runs: 2 8: rmseComb = 0.90554 rmse1 = 0.641087 rmse2 = 0.639539
+Aligned runs: 3 4: rmseComb = 1.48559 rmse1 = 1.06077 rmse2 = 1.04006
+Aligned runs: 3 5: rmseComb = 1.36443 rmse1 = 0.976729 rmse2 = 0.952716
+Aligned runs: 3 6: rmseComb = 2.38778 rmse1 = 1.71762 rmse2 = 1.6587
+Aligned runs: 3 7: rmseComb = 3.07426 rmse1 = 2.19398 rmse2 = 2.15348
+Aligned runs: 3 8: rmseComb = 2.56649 rmse1 = 1.82938 rmse2 = 1.80007
+Aligned runs: 4 5: rmseComb = 0.523279 rmse1 = 0.368339 rmse2 = 0.371681
+Aligned runs: 4 6: rmseComb = 2.19392 rmse1 = 1.57385 rmse2 = 1.52849
+Aligned runs: 4 7: rmseComb = 2.14691 rmse1 = 1.51548 rmse2 = 1.5207
+Aligned runs: 4 8: rmseComb = 2.39064 rmse1 = 1.70159 rmse2 = 1.67921
+Aligned runs: 5 6: rmseComb = 2.40645 rmse1 = 1.71292 rmse2 = 1.69024
+Aligned runs: 5 7: rmseComb = 1.80208 rmse1 = 1.28694 rmse2 = 1.26146
+Aligned runs: 5 8: rmseComb = 2.1009 rmse1 = 1.51438 rmse2 = 1.45617
+Aligned runs: 6 7: rmseComb = 0.452263 rmse1 = 0.319097 rmse2 = 0.320497
+Aligned runs: 6 8: rmseComb = 0.806908 rmse1 = 0.569206 rmse2 = 0.571931
+Aligned runs: 7 8: rmseComb = 0.501469 rmse1 = 0.352339 rmse2 = 0.356831
+Inserting link 0 to 3 with rmse 0.395366
+Inserting link 0 to 2 with rmse 0.541622
+Inserting link 0 to 1 with rmse 0.832631
+Inserting link 1 to 4 with rmse 0.455963
+Inserting link 4 to 5 with rmse 0.523279
+Inserting link 2 to 8 with rmse 0.90554
+Inserting link 7 to 8 with rmse 0.501469
+Inserting link 6 to 7 with rmse 0.452263
+Inserting feature alignment 0->1 to the queue for round 4.
+Inserting feature alignment 0->2 to the queue for round 4.
+Inserting feature alignment 0->3 to the queue for round 4.
+Inserting feature alignment 1->0 to the queue for round 3.
+Inserting feature alignment 1->4 to the queue for round 5.
+Inserting feature alignment 2->0 to the queue for round 3.
+Inserting feature alignment 2->8 to the queue for round 5.
+Inserting feature alignment 3->0 to the queue for round 3.
+Inserting feature alignment 4->1 to the queue for round 2.
+Inserting feature alignment 4->5 to the queue for round 6.
+Inserting feature alignment 5->4 to the queue for round 1.
+Inserting feature alignment 6->7 to the queue for round 0.
+Inserting feature alignment 7->8 to the queue for round 1.
+Inserting feature alignment 7->6 to the queue for round 7.
+Inserting feature alignment 8->2 to the queue for round 2.
+Inserting feature alignment 8->7 to the queue for round 6.
+Matching features 6->7
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_6_to_7.psms --decoy-results-psms Quandenser_output/percolator/link_6_to_7.psms.decoys
+Started Mon Dec  3 22:53:57 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 147977 positives and 32769 negatives, size ratio=4.51576 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 17034 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.328125 cpu seconds or 0 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 43027 PSMs with q<0.02
+Iteration 2:    Estimated 57774 PSMs with q<0.02
+Iteration 3:    Estimated 64030 PSMs with q<0.02
+Iteration 4:    Estimated 67383 PSMs with q<0.02
+Iteration 5:    Estimated 69393 PSMs with q<0.02
+Iteration 6:    Estimated 70364 PSMs with q<0.02
+Iteration 7:    Estimated 70936 PSMs with q<0.02
+Iteration 8:    Estimated 71309 PSMs with q<0.02
+Iteration 9:    Estimated 71479 PSMs with q<0.02
+Iteration 10:   Estimated 71645 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-2.5168 -2.5798 -2.5222 ppmDiff
+-0.8767 -0.8697 -0.9167 rtDiff
+ 0.0066  0.0034  0.0262 precMz
+-0.7540 -0.7509 -0.7549 rTime
+ 0.0000  0.0000  0.0000 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.1039 -0.1143 -0.1101 charge1
+-0.0297 -0.0226 -0.0315 charge2
+ 0.0408  0.0498  0.0421 charge3
+ 0.0940  0.0872  0.1009 charge4plus
+-1.5354 -1.5622 -1.5875 m0
+Found 71477 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 72981 target PSMs and 11276 decoy PSMs.
+Calculating q values.
+Final list yields 45406 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 50.59 cpu seconds or 18 seconds wall clock time.
+Links before 0
+Links after 53726
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_6_to_7.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_6_to_7.psms.pout.dinosaur_targets.tsv mzML/C2.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/C2.mzML
+    out dir: Quandenser_output/percolator/search_and_link_6_to_7.psms.pout_dinosaur
+   out name: C2
+
+.                              .
+[==============================]all hills, n=887877
+hill checkSum = 286477513014942
+peaky hills, n=875064
+peaky hill checkSum = 278831437156823
+  nScans    nHills
+         2        0
+         3   235486
+         4   130287
+      5-10   268124
+     10-20   151802
+     20-50    77426
+    50-100    10609
+   100-200     1330
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=361552
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_6_to_7.psms.pout_dinosaur/C2.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:32.052
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:25.964
+          deisotope time: _ days __:__:35.505
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:19.369
+              write time: _ days __:__:_2.096
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_1:59.817
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_6_to_7.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_6_to_7.psms.pout.decoys
+Started Mon Dec  3 22:56:40 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 98834 positives and 52557 negatives, size ratio=1.88051 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 3656 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.328125 cpu seconds or 0 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 14307 PSMs with q<0.02
+Iteration 2:    Estimated 15933 PSMs with q<0.02
+Iteration 3:    Estimated 16657 PSMs with q<0.02
+Iteration 4:    Estimated 16747 PSMs with q<0.02
+Iteration 5:    Estimated 16814 PSMs with q<0.02
+Iteration 6:    Estimated 16704 PSMs with q<0.02
+Iteration 7:    Estimated 16818 PSMs with q<0.02
+Iteration 8:    Estimated 16805 PSMs with q<0.02
+Iteration 9:    Estimated 16804 PSMs with q<0.02
+Iteration 10:   Estimated 16672 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-4.2825 -4.1577 -6.2792 ppmDiff
+-2.3378 -2.7686 -3.0524 rtDiff
+ 0.2368  0.2367  0.1464 precMz
+-0.7325 -0.8009 -0.7927 rTime
+ 0.0000  0.0000  0.0000 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0553 -0.0791 -0.0876 charge1
+-0.0083  0.0403  0.0448 charge2
+ 0.0595  0.0207  0.0278 charge3
+-0.0024  0.0086  0.0040 charge4plus
+-6.4363 -6.4391 -8.5730 m0
+Found 16152 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 83656 target PSMs and 17142 decoy PSMs.
+Calculating q values.
+Final list yields 18714 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 26.22 cpu seconds or 10 seconds wall clock time.
+Links before 53726
+Links after 70551
+Added 37060 placeholders.
+Matching features 5->4
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_5_to_4.psms --decoy-results-psms Quandenser_output/percolator/link_5_to_4.psms.decoys
+Started Mon Dec  3 22:56:52 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 146545 positives and 35298 negatives, size ratio=4.15165 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 62023 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.296875 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 70670 PSMs with q<0.02
+Iteration 2:    Estimated 72296 PSMs with q<0.02
+Iteration 3:    Estimated 73084 PSMs with q<0.02
+Iteration 4:    Estimated 73247 PSMs with q<0.02
+Iteration 5:    Estimated 73428 PSMs with q<0.02
+Iteration 6:    Estimated 73444 PSMs with q<0.02
+Iteration 7:    Estimated 73574 PSMs with q<0.02
+Iteration 8:    Estimated 73549 PSMs with q<0.02
+Iteration 9:    Estimated 73579 PSMs with q<0.02
+Iteration 10:   Estimated 73608 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-2.6587 -2.7776 -2.8081 ppmDiff
+-1.0116 -1.0330 -1.0311 rtDiff
+ 0.0097  0.0257  0.0269 precMz
+-0.4015 -0.4230 -0.4189 rTime
+ 0.0000  0.0000  0.0000 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0489 -0.0240 -0.0351 charge1
+-0.0380 -0.0527 -0.0468 charge2
+-0.0270 -0.0317 -0.0287 charge3
+ 0.1134  0.1112  0.1119 charge4plus
+-1.6671 -1.7906 -1.8098 m0
+Found 73547 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 71920 target PSMs and 12892 decoy PSMs.
+Calculating q values.
+Final list yields 47416 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 63.89 cpu seconds or 22 seconds wall clock time.
+Links before 0
+Links after 53934
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_5_to_4.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_5_to_4.psms.pout.dinosaur_targets.tsv mzML/B2.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/B2.mzML
+    out dir: Quandenser_output/percolator/search_and_link_5_to_4.psms.pout_dinosaur
+   out name: B2
+
+.                              .
+[==============================]all hills, n=915504
+hill checkSum = 316368482297716
+peaky hills, n=904930
+peaky hill checkSum = 309604268406473
+  nScans    nHills
+         2        0
+         3   263343
+         4   141140
+      5-10   274138
+     10-20   145578
+     20-50    71272
+    50-100     8541
+   100-200      918
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=378352
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_5_to_4.psms.pout_dinosaur/B2.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:34.791
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:26.146
+          deisotope time: _ days __:__:38.355
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:_8.255
+              write time: _ days __:__:_1.874
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_1:54.136
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_5_to_4.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_5_to_4.psms.pout.decoys
+Started Mon Dec  3 22:59:28 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 100381 positives and 59269 negatives, size ratio=1.69365 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 17819 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.3125 cpu seconds or 0 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 18382 PSMs with q<0.02
+Iteration 2:    Estimated 18571 PSMs with q<0.02
+Iteration 3:    Estimated 18712 PSMs with q<0.02
+Iteration 4:    Estimated 18785 PSMs with q<0.02
+Iteration 5:    Estimated 18646 PSMs with q<0.02
+Iteration 6:    Estimated 18760 PSMs with q<0.02
+Iteration 7:    Estimated 18731 PSMs with q<0.02
+Iteration 8:    Estimated 18742 PSMs with q<0.02
+Iteration 9:    Estimated 18761 PSMs with q<0.02
+Iteration 10:   Estimated 18708 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-4.7384 -6.2549 -4.2880 ppmDiff
+-2.3579 -2.9889 -2.1100 rtDiff
+ 0.0053 -0.0008 -0.0064 precMz
+-0.1805 -0.2921 -0.1929 rTime
+ 0.0000  0.0000  0.0000 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0176  0.0161  0.0187 charge1
+ 0.0163  0.0321  0.0050 charge2
+-0.0279 -0.0363 -0.0017 charge3
+ 0.0281 -0.0114 -0.0209 charge4plus
+-6.8933 -8.8666 -6.0046 m0
+Found 18353 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 82268 target PSMs and 21461 decoy PSMs.
+Calculating q values.
+Final list yields 21371 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 28.95 cpu seconds or 11 seconds wall clock time.
+Links before 53934
+Links after 67315
+Added 45139 placeholders.
+Matching features 7->8
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_7_to_8.psms --decoy-results-psms Quandenser_output/percolator/link_7_to_8.psms.decoys
+Started Mon Dec  3 22:59:41 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 203149 positives and 57743 negatives, size ratio=3.51816 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 13054 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.5 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 47764 PSMs with q<0.02
+Iteration 2:    Estimated 61936 PSMs with q<0.02
+Iteration 3:    Estimated 69069 PSMs with q<0.02
+Iteration 4:    Estimated 72884 PSMs with q<0.02
+Iteration 5:    Estimated 75126 PSMs with q<0.02
+Iteration 6:    Estimated 76957 PSMs with q<0.02
+Iteration 7:    Estimated 78024 PSMs with q<0.02
+Iteration 8:    Estimated 78787 PSMs with q<0.02
+Iteration 9:    Estimated 79336 PSMs with q<0.02
+Iteration 10:   Estimated 79642 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-3.3746 -3.2586 -3.0964 ppmDiff
+-0.8227 -0.7782 -0.7786 rtDiff
+-0.4143 -0.4332 -0.4750 precMz
+-0.4517 -0.4530 -0.4443 rTime
+-1.1867 -1.2206 -1.2278 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0225 -0.0086 -0.0144 charge1
+-0.0684 -0.0723 -0.0335 charge2
+ 0.0019  0.0129 -0.0140 charge3
+ 0.1023  0.0790  0.0707 charge4plus
+-2.9521 -2.8645 -2.7229 m0
+Found 79789 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 101247 target PSMs and 20931 decoy PSMs.
+Calculating q values.
+Final list yields 49327 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 83.81 cpu seconds or 30 seconds wall clock time.
+Links before 0
+Links after 66420
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_7_to_8.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_7_to_8.psms.pout.dinosaur_targets.tsv mzML/C3.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/C3.mzML
+    out dir: Quandenser_output/percolator/search_and_link_7_to_8.psms.pout_dinosaur
+   out name: C3
+
+.                              .
+[==============================]all hills, n=899367
+hill checkSum = 294190552751532
+peaky hills, n=885902
+peaky hill checkSum = 286054384400930
+  nScans    nHills
+         2        0
+         3   238218
+         4   131029
+      5-10   271676
+     10-20   154615
+     20-50    78496
+    50-100    10591
+   100-200     1277
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=436026
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_7_to_8.psms.pout_dinosaur/C3.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:32.373
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:26.217
+          deisotope time: _ days __:__:49.083
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:14.306
+              write time: _ days __:__:_2.608
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_2:11.410
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_7_to_8.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_7_to_8.psms.pout.decoys
+Started Mon Dec  3 23:02:42 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 148398 positives and 86238 negatives, size ratio=1.7208 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 3512 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.484375 cpu seconds or 0 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 22256 PSMs with q<0.02
+Iteration 2:    Estimated 23800 PSMs with q<0.02
+Iteration 3:    Estimated 24635 PSMs with q<0.02
+Iteration 4:    Estimated 24981 PSMs with q<0.02
+Iteration 5:    Estimated 25137 PSMs with q<0.02
+Iteration 6:    Estimated 25426 PSMs with q<0.02
+Iteration 7:    Estimated 25624 PSMs with q<0.02
+Iteration 8:    Estimated 25563 PSMs with q<0.02
+Iteration 9:    Estimated 25628 PSMs with q<0.02
+Iteration 10:   Estimated 25688 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-3.8447 -4.9460 -4.0009 ppmDiff
+-2.3754 -2.8124 -2.3744 rtDiff
+ 0.1342  0.2487  0.1553 precMz
+-0.8024 -1.0086 -0.7979 rTime
+-0.8817 -1.2412 -0.9812 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0313 -0.0652 -0.0391 charge1
+-0.0155  0.0049 -0.0066 charge2
+ 0.0073 -0.0132  0.0123 charge3
+ 0.0426  0.0768  0.0348 charge4plus
+-6.1267 -7.7482 -6.6095 m0
+Found 25495 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 121693 target PSMs and 30227 decoy PSMs.
+Calculating q values.
+Final list yields 28722 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 50.12 cpu seconds or 18 seconds wall clock time.
+Links before 66420
+Links after 88861
+Added 72514 placeholders.
+Matching features 4->1
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_4_to_1.psms --decoy-results-psms Quandenser_output/percolator/link_4_to_1.psms.decoys
+Started Mon Dec  3 23:03:03 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 175794 positives and 58349 negatives, size ratio=3.0128 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 1600 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.40625 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 33616 PSMs with q<0.02
+Iteration 2:    Estimated 41696 PSMs with q<0.02
+Iteration 3:    Estimated 46163 PSMs with q<0.02
+Iteration 4:    Estimated 49627 PSMs with q<0.02
+Iteration 5:    Estimated 51525 PSMs with q<0.02
+Iteration 6:    Estimated 52857 PSMs with q<0.02
+Iteration 7:    Estimated 53287 PSMs with q<0.02
+Iteration 8:    Estimated 53592 PSMs with q<0.02
+Iteration 9:    Estimated 53807 PSMs with q<0.02
+Iteration 10:   Estimated 53653 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-2.2687 -2.4533 -2.4750 ppmDiff
+-1.2464 -1.3585 -1.3844 rtDiff
+ 0.1852  0.1314  0.1142 precMz
+-0.8546 -0.9230 -0.8788 rTime
+-1.0035 -0.9091 -0.9610 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0895 -0.0825 -0.0898 charge1
+-0.0213 -0.0065 -0.0293 charge2
+ 0.0128  0.0186  0.0226 charge3
+ 0.1013  0.0709  0.0999 charge4plus
+-3.1483 -2.9933 -3.0615 m0
+Found 53470 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 88696 target PSMs and 23788 decoy PSMs.
+Calculating q values.
+Final list yields 36601 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 60.81 cpu seconds or 22 seconds wall clock time.
+Links before 0
+Links after 49557
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_4_to_1.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_4_to_1.psms.pout.dinosaur_targets.tsv mzML/A2.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/A2.mzML
+    out dir: Quandenser_output/percolator/search_and_link_4_to_1.psms.pout_dinosaur
+   out name: A2
+
+.                              .
+[==============================]all hills, n=914241
+hill checkSum = 314638613735666
+peaky hills, n=903370
+peaky hill checkSum = 307732244092992
+  nScans    nHills
+         2        0
+         3   253940
+         4   139200
+      5-10   273312
+     10-20   149872
+     20-50    76236
+    50-100     9775
+   100-200     1035
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=448812
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_4_to_1.psms.pout_dinosaur/A2.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:35.152
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:26.403
+          deisotope time: _ days __:__:47.680
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:13.002
+              write time: _ days __:__:_2.791
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_2:11.694
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_4_to_1.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_4_to_1.psms.pout.decoys
+Started Mon Dec  3 23:05:59 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 141035 positives and 89572 negatives, size ratio=1.57454 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 2428 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.46875 cpu seconds or 0 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 13509 PSMs with q<0.02
+Iteration 2:    Estimated 14841 PSMs with q<0.02
+Iteration 3:    Estimated 15260 PSMs with q<0.02
+Iteration 4:    Estimated 15417 PSMs with q<0.02
+Iteration 5:    Estimated 15493 PSMs with q<0.02
+Iteration 6:    Estimated 15512 PSMs with q<0.02
+Iteration 7:    Estimated 15583 PSMs with q<0.02
+Iteration 8:    Estimated 15438 PSMs with q<0.02
+Iteration 9:    Estimated 15373 PSMs with q<0.02
+Iteration 10:   Estimated 15359 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-5.2411 -5.2619 -5.3970 ppmDiff
+-3.7171 -4.9641 -3.9548 rtDiff
+ 0.3830  0.3493  0.2558 precMz
+-1.0366 -1.0299 -0.8538 rTime
+-0.8522 -1.0493 -0.8821 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.1060 -0.1079 -0.0944 charge1
+ 0.0101  0.0405  0.0175 charge2
+ 0.0394  0.0030  0.0199 charge3
+ 0.0511  0.0578  0.0523 charge4plus
+-9.8693 -11.2556        -10.5319        m0
+Found 14857 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 111542 target PSMs and 36832 decoy PSMs.
+Calculating q values.
+Final list yields 16904 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 47.28 cpu seconds or 18 seconds wall clock time.
+Links before 49557
+Links after 66874
+Added 106520 placeholders.
+Matching features 8->2
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_8_to_2.psms --decoy-results-psms Quandenser_output/percolator/link_8_to_2.psms.decoys
+Started Mon Dec  3 23:06:20 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 244564 positives and 99592 negatives, size ratio=2.45566 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 1734 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.71875 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 44444 PSMs with q<0.02
+Iteration 2:    Estimated 50424 PSMs with q<0.02
+Iteration 3:    Estimated 53542 PSMs with q<0.02
+Iteration 4:    Estimated 54991 PSMs with q<0.02
+Iteration 5:    Estimated 55833 PSMs with q<0.02
+Iteration 6:    Estimated 56266 PSMs with q<0.02
+Iteration 7:    Estimated 56346 PSMs with q<0.02
+Iteration 8:    Estimated 56145 PSMs with q<0.02
+Iteration 9:    Estimated 56002 PSMs with q<0.02
+Iteration 10:   Estimated 56054 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-3.9541 -3.4231 -3.0409 ppmDiff
+-1.4758 -1.2589 -1.1008 rtDiff
+ 0.1870  0.2202  0.2356 precMz
+-0.9833 -0.9439 -0.8347 rTime
+-1.4810 -1.3948 -1.0365 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0057  0.0365  0.0560 charge1
+-0.0399 -0.0386 -0.0389 charge2
+ 0.0051 -0.0606 -0.0268 charge3
+ 0.0491  0.0780  0.0174 charge4plus
+-5.2232 -4.9619 -4.6043 m0
+Found 55113 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 114718 target PSMs and 38026 decoy PSMs.
+Calculating q values.
+Final list yields 33766 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 87.09 cpu seconds or 30 seconds wall clock time.
+Links before 0
+Links after 55701
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_8_to_2.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_8_to_2.psms.pout.dinosaur_targets.tsv mzML/A3.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/A3.mzML
+    out dir: Quandenser_output/percolator/search_and_link_8_to_2.psms.pout_dinosaur
+   out name: A3
+
+.                              .
+[==============================]all hills, n=921343
+hill checkSum = 319167459500591
+peaky hills, n=910008
+peaky hill checkSum = 311926343770254
+  nScans    nHills
+         2        0
+         3   255804
+         4   139758
+      5-10   277015
+     10-20   150079
+     20-50    76530
+    50-100     9730
+   100-200     1092
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=516854
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_8_to_2.psms.pout_dinosaur/A3.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:35.561
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:27.930
+          deisotope time: _ days __:_1:48.264
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:16.429
+              write time: _ days __:__:_5.392
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_3:25.624
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_8_to_2.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_8_to_2.psms.pout.decoys
+Started Mon Dec  3 23:10:47 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 182590 positives and 134584 negatives, size ratio=1.3567 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 0 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.671875 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 9036 PSMs with q<0.02
+Iteration 2:    Estimated 10149 PSMs with q<0.02
+Iteration 3:    Estimated 10785 PSMs with q<0.02
+Iteration 4:    Estimated 11392 PSMs with q<0.02
+Iteration 5:    Estimated 11558 PSMs with q<0.02
+Iteration 6:    Estimated 11975 PSMs with q<0.02
+Iteration 7:    Estimated 12104 PSMs with q<0.02
+Iteration 8:    Estimated 12203 PSMs with q<0.02
+Iteration 9:    Estimated 12405 PSMs with q<0.02
+Iteration 10:   Estimated 12449 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-5.3670 -5.4599 -5.3814 ppmDiff
+-2.8236 -3.1209 -2.6818 rtDiff
+ 0.4634  0.4421  0.5466 precMz
+-1.0103 -1.0512 -1.0190 rTime
+-1.1560 -1.2542 -1.0112 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+ 0.0799  0.1616  0.1030 charge1
+ 0.0133 -0.0274 -0.0587 charge2
+-0.0592 -0.0686 -0.0424 charge3
+-0.0324 -0.0586  0.0100 charge4plus
+-10.6695        -11.2751        -10.5287        m0
+Found 12537 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 134637 target PSMs and 55004 decoy PSMs.
+Calculating q values.
+Final list yields 13965 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 68.98 cpu seconds or 25 seconds wall clock time.
+Links before 55701
+Links after 70786
+Added 134845 placeholders.
+Matching features 1->0
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_1_to_0.psms --decoy-results-psms Quandenser_output/percolator/link_1_to_0.psms.decoys
+Started Mon Dec  3 23:11:17 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 288795 positives and 117295 negatives, size ratio=2.46213 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 168 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.890625 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 44868 PSMs with q<0.02
+Iteration 2:    Estimated 50699 PSMs with q<0.02
+Iteration 3:    Estimated 55240 PSMs with q<0.02
+Iteration 4:    Estimated 58240 PSMs with q<0.02
+Iteration 5:    Estimated 60381 PSMs with q<0.02
+Iteration 6:    Estimated 61497 PSMs with q<0.02
+Iteration 7:    Estimated 61903 PSMs with q<0.02
+Iteration 8:    Estimated 62005 PSMs with q<0.02
+Iteration 9:    Estimated 62083 PSMs with q<0.02
+Iteration 10:   Estimated 62044 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-4.3504 -3.0482 -4.3788 ppmDiff
+-1.5483 -1.1284 -1.4654 rtDiff
+-0.6490  0.2159  0.1175 precMz
+-0.3702 -0.7567 -0.8977 rTime
+-1.7799 -0.9935 -1.6012 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0525 -0.0286 -0.1345 charge1
+-0.0005 -0.0097  0.0010 charge2
+ 0.0127 -0.0195 -0.0028 charge3
+ 0.0433  0.0651  0.1488 charge4plus
+-6.0601 -4.7099 -5.8663 m0
+Found 60240 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 137716 target PSMs and 44021 decoy PSMs.
+Calculating q values.
+Final list yields 41560 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 106.9 cpu seconds or 38 seconds wall clock time.
+Links before 0
+Links after 65333
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_1_to_0.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_1_to_0.psms.pout.dinosaur_targets.tsv mzML/A1.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/A1.mzML
+    out dir: Quandenser_output/percolator/search_and_link_1_to_0.psms.pout_dinosaur
+   out name: A1
+
+.                              .
+[==============================]all hills, n=927733
+hill checkSum = 324631366808239
+peaky hills, n=916241
+peaky hill checkSum = 317221598477848
+  nScans    nHills
+         2        0
+         3   257503
+         4   140685
+      5-10   279192
+     10-20   151649
+     20-50    76478
+    50-100     9668
+   100-200     1066
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=549488
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_1_to_0.psms.pout_dinosaur/A1.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:33.151
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:24.868
+          deisotope time: _ days __:_1:28.058
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:16.810
+              write time: _ days __:__:_3.977
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_2:58.853
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_1_to_0.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_1_to_0.psms.pout.decoys
+Started Mon Dec  3 23:15:30 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 218248 positives and 160747 negatives, size ratio=1.35771 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 1014 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.765625 cpu seconds or 0 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 13730 PSMs with q<0.02
+Iteration 2:    Estimated 13895 PSMs with q<0.02
+Iteration 3:    Estimated 14023 PSMs with q<0.02
+Iteration 4:    Estimated 14115 PSMs with q<0.02
+Iteration 5:    Estimated 14207 PSMs with q<0.02
+Iteration 6:    Estimated 14284 PSMs with q<0.02
+Iteration 7:    Estimated 14231 PSMs with q<0.02
+Iteration 8:    Estimated 14296 PSMs with q<0.02
+Iteration 9:    Estimated 14398 PSMs with q<0.02
+Iteration 10:   Estimated 14677 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-5.2452 -5.0790 -5.3808 ppmDiff
+-4.1858 -3.7668 -3.0409 rtDiff
+ 0.2748  0.1318  0.4227 precMz
+-0.9133 -0.8006 -0.9835 rTime
+-0.8404 -1.0393 -0.8298 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+ 0.0206  0.0384  0.0025 charge1
+ 0.0282  0.0329  0.0287 charge2
+-0.0180 -0.0096  0.0167 charge3
+-0.0347 -0.0680 -0.0544 charge4plus
+-11.8285        -11.3583        -10.6273        m0
+Found 14161 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 160259 target PSMs and 64598 decoy PSMs.
+Calculating q values.
+Final list yields 16204 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 84.19 cpu seconds or 30 seconds wall clock time.
+Links before 65333
+Links after 83645
+Added 155617 placeholders.
+Matching features 2->0
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_2_to_0.psms --decoy-results-psms Quandenser_output/percolator/link_2_to_0.psms.decoys
+Started Mon Dec  3 23:16:06 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 395266 positives and 165722 negatives, size ratio=2.38511 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 251 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.29688 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 43982 PSMs with q<0.02
+Iteration 2:    Estimated 54918 PSMs with q<0.02
+Iteration 3:    Estimated 62075 PSMs with q<0.02
+Iteration 4:    Estimated 66091 PSMs with q<0.02
+Iteration 5:    Estimated 68061 PSMs with q<0.02
+Iteration 6:    Estimated 69210 PSMs with q<0.02
+Iteration 7:    Estimated 69771 PSMs with q<0.02
+Iteration 8:    Estimated 70075 PSMs with q<0.02
+Iteration 9:    Estimated 70195 PSMs with q<0.02
+Iteration 10:   Estimated 70314 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-4.0076 -3.7696 -4.2272 ppmDiff
+-1.1155 -1.1524 -1.2997 rtDiff
+ 0.1386  0.0939  0.1866 precMz
+-0.9317 -0.8624 -0.9435 rTime
+-1.4272 -1.3850 -1.4877 queryIsPlaceHolder
+-0.3550 -0.3550 -0.4253 targetIsPlaceHolder
+-0.1037 -0.1147 -0.1296 charge1
+-0.0552 -0.0340 -0.0612 charge2
+ 0.0584  0.0619  0.0698 charge3
+ 0.1110  0.0935  0.1329 charge4plus
+-5.7080 -5.4556 -6.1420 m0
+Found 70236 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 173244 target PSMs and 52159 decoy PSMs.
+Calculating q values.
+Final list yields 52108 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 142.7 cpu seconds or 51 seconds wall clock time.
+Links before 0
+Links after 80069
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_2_to_0.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_2_to_0.psms.pout.dinosaur_targets.tsv mzML/A1.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/A1.mzML
+    out dir: Quandenser_output/percolator/search_and_link_2_to_0.psms.pout_dinosaur
+   out name: A1
+
+.                              .
+[==============================]all hills, n=927733
+hill checkSum = 324631374836877
+peaky hills, n=916241
+peaky hill checkSum = 317221606389172
+  nScans    nHills
+         2        0
+         3   257503
+         4   140685
+      5-10   279192
+     10-20   151649
+     20-50    76478
+    50-100     9668
+   100-200     1066
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=540211
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_2_to_0.psms.pout_dinosaur/A1.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:32.856
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:24.911
+          deisotope time: _ days __:_1:15.984
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:15.158
+              write time: _ days __:__:_4.231
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_2:44.439
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_2_to_0.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_2_to_0.psms.pout.decoys
+Started Mon Dec  3 23:20:19 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 230878 positives and 158533 negatives, size ratio=1.45634 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 1214 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.765625 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 14699 PSMs with q<0.02
+Iteration 2:    Estimated 16895 PSMs with q<0.02
+Iteration 3:    Estimated 17727 PSMs with q<0.02
+Iteration 4:    Estimated 18353 PSMs with q<0.02
+Iteration 5:    Estimated 18902 PSMs with q<0.02
+Iteration 6:    Estimated 19196 PSMs with q<0.02
+Iteration 7:    Estimated 19348 PSMs with q<0.02
+Iteration 8:    Estimated 19416 PSMs with q<0.02
+Iteration 9:    Estimated 19545 PSMs with q<0.02
+Iteration 10:   Estimated 19630 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-7.1905 -6.0260 -7.2267 ppmDiff
+-2.5281 -2.7999 -2.7183 rtDiff
+ 0.5079  0.7159  0.5127 precMz
+-1.0950 -1.2574 -1.1873 rTime
+-1.4574 -1.1987 -1.5858 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0432 -0.0486 -0.0631 charge1
+ 0.0178 -0.0013  0.0713 charge2
+ 0.0737  0.0883  0.1335 charge3
+-0.0580 -0.0461 -0.1671 charge4plus
+-11.9963        -10.8569        -12.3464        m0
+Found 19104 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 175437 target PSMs and 64616 decoy PSMs.
+Calculating q values.
+Final list yields 21975 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 84.27 cpu seconds or 30 seconds wall clock time.
+Links before 80069
+Links after 95423
+Added 167912 placeholders.
+Matching features 3->0
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_3_to_0.psms --decoy-results-psms Quandenser_output/percolator/link_3_to_0.psms.decoys
+Started Mon Dec  3 23:20:55 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 216184 positives and 64674 negatives, size ratio=3.34267 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 0 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.4375 cpu seconds or 0 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 34720 PSMs with q<0.02
+Iteration 2:    Estimated 44814 PSMs with q<0.02
+Iteration 3:    Estimated 47308 PSMs with q<0.02
+Iteration 4:    Estimated 48064 PSMs with q<0.02
+Iteration 5:    Estimated 48280 PSMs with q<0.02
+Iteration 6:    Estimated 48661 PSMs with q<0.02
+Iteration 7:    Estimated 48851 PSMs with q<0.02
+Iteration 8:    Estimated 48877 PSMs with q<0.02
+Iteration 9:    Estimated 48912 PSMs with q<0.02
+Iteration 10:   Estimated 48981 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-2.2845 -3.0882 -2.5321 ppmDiff
+-0.5860 -1.0516 -0.5877 rtDiff
+-0.7618 -0.9019 -1.3988 precMz
+-0.0822 -0.3091  0.2665 rTime
+ 0.0000  0.0000  0.0000 queryIsPlaceHolder
+-0.2512 -0.4378 -0.2823 targetIsPlaceHolder
+ 0.0647  0.0289 -0.0207 charge1
+ 0.0024 -0.0117 -0.0233 charge2
+-0.0541 -0.0360 -0.0055 charge3
+-0.0094  0.0224  0.0519 charge4plus
+-2.8684 -3.2299 -3.0173 m0
+Found 47881 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 91261 target PSMs and 16506 decoy PSMs.
+Calculating q values.
+Final list yields 32774 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 65.83 cpu seconds or 24 seconds wall clock time.
+Links before 0
+Links after 60919
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_3_to_0.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_3_to_0.psms.pout.dinosaur_targets.tsv mzML/A1.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/A1.mzML
+    out dir: Quandenser_output/percolator/search_and_link_3_to_0.psms.pout_dinosaur
+   out name: A1
+
+.                              .
+[==============================]all hills, n=927733
+hill checkSum = 324631371074193
+peaky hills, n=916241
+peaky hill checkSum = 317221602670551
+  nScans    nHills
+         2        0
+         3   257503
+         4   140685
+      5-10   279192
+     10-20   151649
+     20-50    76478
+    50-100     9668
+   100-200     1066
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=384044
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_3_to_0.psms.pout_dinosaur/A1.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:34.013
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:25.002
+          deisotope time: _ days __:__:35.425
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:11.635
+              write time: _ days __:__:_1.815
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_1:52.808
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_3_to_0.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_3_to_0.psms.pout.decoys
+Started Mon Dec  3 23:23:36 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 101247 positives and 60110 negatives, size ratio=1.68436 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 80 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.296875 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 6645 PSMs with q<0.02
+Iteration 2:    Estimated 6835 PSMs with q<0.02
+Iteration 3:    Estimated 6955 PSMs with q<0.02
+Iteration 4:    Estimated 7091 PSMs with q<0.02
+Iteration 5:    Estimated 7148 PSMs with q<0.02
+Iteration 6:    Estimated 7264 PSMs with q<0.02
+Iteration 7:    Estimated 7187 PSMs with q<0.02
+Iteration 8:    Estimated 7286 PSMs with q<0.02
+Iteration 9:    Estimated 7484 PSMs with q<0.02
+Iteration 10:   Estimated 7606 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-3.6323 -5.9804 -5.6888 ppmDiff
+-2.6589 -4.2315 -3.4702 rtDiff
+-0.1047  0.2093  0.2799 precMz
+-0.6000 -0.9728 -0.9154 rTime
+ 0.0000  0.0000  0.0000 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+ 0.0481 -0.0208 -0.0926 charge1
+ 0.0658  0.0302  0.0717 charge2
+ 0.0079  0.0396  0.1009 charge3
+-0.1287 -0.0561 -0.0986 charge4plus
+-7.1099 -11.4372        -10.2111        m0
+Found 6458 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 81896 target PSMs and 22496 decoy PSMs.
+Calculating q values.
+Final list yields 8117 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 24.42 cpu seconds or 9 seconds wall clock time.
+Links before 60919
+Links after 70314
+Added 43660 placeholders.
+Matching features 0->1
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_0_to_1.psms --decoy-results-psms Quandenser_output/percolator/link_0_to_1.psms.decoys
+Started Mon Dec  3 23:23:53 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 851232 positives and 363065 negatives, size ratio=2.34457 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 162864 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 3.10938 cpu seconds or 3 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 182606 PSMs with q<0.02
+Iteration 2:    Estimated 195026 PSMs with q<0.02
+Iteration 3:    Estimated 202231 PSMs with q<0.02
+Iteration 4:    Estimated 206255 PSMs with q<0.02
+Iteration 5:    Estimated 208505 PSMs with q<0.02
+Iteration 6:    Estimated 209756 PSMs with q<0.02
+Iteration 7:    Estimated 210423 PSMs with q<0.02
+Iteration 8:    Estimated 210793 PSMs with q<0.02
+Iteration 9:    Estimated 210995 PSMs with q<0.02
+Iteration 10:   Estimated 211068 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-10.7874        -10.8195        -10.7214        ppmDiff
+-3.7220 -3.6574 -3.6450 rtDiff
+-0.0485 -0.0444 -0.0418 precMz
+-0.5128 -0.5010 -0.5199 rTime
+-0.4914 -0.4961 -0.5075 queryIsPlaceHolder
+ 0.0821  0.0809  0.0823 targetIsPlaceHolder
+-0.0177 -0.0160 -0.0178 charge1
+-0.0117 -0.0134 -0.0158 charge2
+ 0.0101  0.0061  0.0058 charge3
+ 0.0228  0.0274  0.0328 charge4plus
+-12.0454        -12.0239        -11.9000        m0
+Found 211134 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 385166 target PSMs and 94042 decoy PSMs.
+Calculating q values.
+Final list yields 191686 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 466.2 cpu seconds or 161 seconds wall clock time.
+Links before 0
+Links after 211182
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_0_to_1.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_0_to_1.psms.pout.dinosaur_targets.tsv mzML/A2.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/A2.mzML
+    out dir: Quandenser_output/percolator/search_and_link_0_to_1.psms.pout_dinosaur
+   out name: A2
+
+.                              .
+[==============================]all hills, n=914241
+hill checkSum = 314638615755700
+peaky hills, n=903370
+peaky hill checkSum = 307732246078604
+  nScans    nHills
+         2        0
+         3   253940
+         4   139200
+      5-10   273312
+     10-20   149872
+     20-50    76236
+    50-100     9775
+   100-200     1035
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=608450
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_0_to_1.psms.pout_dinosaur/A2.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:34.728
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:26.018
+          deisotope time: _ days __:_2:59.664
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:21.381
+              write time: _ days __:__:10.149
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_4:56.636
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_0_to_1.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_0_to_1.psms.pout.decoys
+Started Mon Dec  3 23:32:04 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 479642 positives and 367820 negatives, size ratio=1.30401 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 13980 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.89062 cpu seconds or 2 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 22315 PSMs with q<0.02
+Iteration 2:    Estimated 25452 PSMs with q<0.02
+Iteration 3:    Estimated 26991 PSMs with q<0.02
+Iteration 4:    Estimated 27192 PSMs with q<0.02
+Iteration 5:    Estimated 27261 PSMs with q<0.02
+Iteration 6:    Estimated 27231 PSMs with q<0.02
+Iteration 7:    Estimated 27202 PSMs with q<0.02
+Iteration 8:    Estimated 27153 PSMs with q<0.02
+Iteration 9:    Estimated 27279 PSMs with q<0.02
+Iteration 10:   Estimated 27270 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-8.5478 -8.9353 -12.5993        ppmDiff
+-9.6506 -9.7150 -11.6578        rtDiff
+ 0.1385  0.1548  0.2320 precMz
+-0.5806 -0.5748 -0.7252 rTime
+-0.2728 -0.2551 -0.3882 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0673 -0.0525 -0.0875 charge1
+ 0.0165  0.0005  0.0038 charge2
+-0.0065  0.0145  0.0593 charge3
+ 0.0607  0.0404  0.0245 charge4plus
+-21.0357        -21.5527        -28.1299        m0
+Found 26919 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 339284 target PSMs and 157084 decoy PSMs.
+Calculating q values.
+Final list yields 27656 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 223.2 cpu seconds or 78 seconds wall clock time.
+Links before 211182
+Links after 233802
+Added 297463 placeholders.
+Matching features 0->2
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_0_to_2.psms --decoy-results-psms Quandenser_output/percolator/link_0_to_2.psms.decoys
+Started Mon Dec  3 23:33:35 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 836259 positives and 331915 negatives, size ratio=2.5195 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 186184 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 2.375 cpu seconds or 2 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 210506 PSMs with q<0.02
+Iteration 2:    Estimated 225314 PSMs with q<0.02
+Iteration 3:    Estimated 232903 PSMs with q<0.02
+Iteration 4:    Estimated 236898 PSMs with q<0.02
+Iteration 5:    Estimated 239005 PSMs with q<0.02
+Iteration 6:    Estimated 240106 PSMs with q<0.02
+Iteration 7:    Estimated 240772 PSMs with q<0.02
+Iteration 8:    Estimated 241169 PSMs with q<0.02
+Iteration 9:    Estimated 241406 PSMs with q<0.02
+Iteration 10:   Estimated 241588 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-7.1634 -7.1252 -6.8827 ppmDiff
+-3.0868 -3.0236 -3.1485 rtDiff
+-0.0498 -0.0475 -0.0504 precMz
+-0.5497 -0.5660 -0.5575 rTime
+-0.4184 -0.4177 -0.4255 queryIsPlaceHolder
+ 0.0766  0.0806  0.0732 targetIsPlaceHolder
+-0.0110 -0.0121 -0.0043 charge1
+-0.0097 -0.0171 -0.0150 charge2
+-0.0111 -0.0031 -0.0035 charge3
+ 0.0371  0.0383  0.0274 charge4plus
+-8.0865 -7.9777 -7.8771 m0
+Found 241350 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 388177 target PSMs and 83667 decoy PSMs.
+Calculating q values.
+Final list yields 219316 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 458.5 cpu seconds or 159 seconds wall clock time.
+Links before 0
+Links after 237617
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_0_to_2.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_0_to_2.psms.pout.dinosaur_targets.tsv mzML/A3.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/A3.mzML
+    out dir: Quandenser_output/percolator/search_and_link_0_to_2.psms.pout_dinosaur
+   out name: A3
+
+.                              .
+[==============================]all hills, n=921343
+hill checkSum = 319167471616892
+peaky hills, n=910008
+peaky hill checkSum = 311926356017380
+  nScans    nHills
+         2        0
+         3   255804
+         4   139758
+      5-10   277015
+     10-20   150079
+     20-50    76530
+    50-100     9730
+   100-200     1092
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=596614
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_0_to_2.psms.pout_dinosaur/A3.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:34.449
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:26.684
+          deisotope time: _ days __:_2:21.420
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:15.913
+              write time: _ days __:__:_7.893
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_4:06.304
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_0_to_2.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_0_to_2.psms.pout.decoys
+Started Mon Dec  3 23:41:14 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 459488 positives and 328795 negatives, size ratio=1.39749 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 12648 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.70312 cpu seconds or 2 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 20481 PSMs with q<0.02
+Iteration 2:    Estimated 23605 PSMs with q<0.02
+Iteration 3:    Estimated 25614 PSMs with q<0.02
+Iteration 4:    Estimated 26724 PSMs with q<0.02
+Iteration 5:    Estimated 27156 PSMs with q<0.02
+Iteration 6:    Estimated 27511 PSMs with q<0.02
+Iteration 7:    Estimated 27699 PSMs with q<0.02
+Iteration 8:    Estimated 27973 PSMs with q<0.02
+Iteration 9:    Estimated 28001 PSMs with q<0.02
+Iteration 10:   Estimated 28030 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-9.3295 -9.8230 -9.3296 ppmDiff
+-8.1381 -6.4425 -7.0828 rtDiff
+ 0.1674  0.2700  0.3034 precMz
+-0.5738 -0.6642 -0.7016 rTime
+-0.3595 -0.4253 -0.4103 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0734 -0.0669 -0.0551 charge1
+ 0.0128  0.0145  0.0153 charge2
+ 0.0275  0.0039  0.0240 charge3
+ 0.0338  0.0512  0.0145 charge4plus
+-20.3781        -19.0750        -19.0935        m0
+Found 27017 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 338254 target PSMs and 141472 decoy PSMs.
+Calculating q values.
+Final list yields 28934 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 205.9 cpu seconds or 73 seconds wall clock time.
+Links before 237617
+Links after 262671
+Added 268594 placeholders.
+Matching features 0->3
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_0_to_3.psms --decoy-results-psms Quandenser_output/percolator/link_0_to_3.psms.decoys
+Started Mon Dec  3 23:42:38 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 480744 positives and 212608 negatives, size ratio=2.26118 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 55377 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.0625 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 64944 PSMs with q<0.02
+Iteration 2:    Estimated 72235 PSMs with q<0.02
+Iteration 3:    Estimated 77374 PSMs with q<0.02
+Iteration 4:    Estimated 80606 PSMs with q<0.02
+Iteration 5:    Estimated 82596 PSMs with q<0.02
+Iteration 6:    Estimated 83860 PSMs with q<0.02
+Iteration 7:    Estimated 84729 PSMs with q<0.02
+Iteration 8:    Estimated 85315 PSMs with q<0.02
+Iteration 9:    Estimated 85705 PSMs with q<0.02
+Iteration 10:   Estimated 85962 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-6.6792 -6.8229 -6.5380 ppmDiff
+-3.9180 -3.7344 -3.7794 rtDiff
+ 0.0495  0.0079  0.0136 precMz
+-0.6755 -0.6307 -0.6631 rTime
+-0.2573 -0.2509 -0.2795 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0492 -0.0455 -0.0384 charge1
+-0.0059 -0.0066 -0.0139 charge2
+ 0.0063  0.0058  0.0085 charge3
+ 0.0587  0.0559  0.0537 charge4plus
+-9.3765 -9.3320 -9.0680 m0
+Found 85828 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 256467 target PSMs and 84072 decoy PSMs.
+Calculating q values.
+Final list yields 78013 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 189.8 cpu seconds or 67 seconds wall clock time.
+Links before 0
+Links after 121128
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_0_to_3.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_0_to_3.psms.pout.dinosaur_targets.tsv mzML/B1.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/B1.mzML
+    out dir: Quandenser_output/percolator/search_and_link_0_to_3.psms.pout_dinosaur
+   out name: B1
+
+.                              .
+[==============================]all hills, n=909707
+hill checkSum = 312186322571672
+peaky hills, n=899333
+peaky hill checkSum = 305617097200655
+  nScans    nHills
+         2        0
+         3   260432
+         4   140996
+      5-10   272303
+     10-20   145050
+     20-50    71151
+    50-100     8444
+   100-200      957
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=578328
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_0_to_3.psms.pout_dinosaur/B1.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:33.435
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:28.091
+          deisotope time: _ days __:_1:54.946
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:14.801
+              write time: _ days __:__:_7.379
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_3:36.034
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_0_to_3.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_0_to_3.psms.pout.decoys
+Started Mon Dec  3 23:48:06 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 430867 positives and 301322 negatives, size ratio=1.42992 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 11182 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.42188 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 15205 PSMs with q<0.02
+Iteration 2:    Estimated 18030 PSMs with q<0.02
+Iteration 3:    Estimated 20519 PSMs with q<0.02
+Iteration 4:    Estimated 22225 PSMs with q<0.02
+Iteration 5:    Estimated 22899 PSMs with q<0.02
+Iteration 6:    Estimated 22975 PSMs with q<0.02
+Iteration 7:    Estimated 23022 PSMs with q<0.02
+Iteration 8:    Estimated 22882 PSMs with q<0.02
+Iteration 9:    Estimated 23054 PSMs with q<0.02
+Iteration 10:   Estimated 23178 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-9.0628 -6.9545 -4.6686 ppmDiff
+-5.3792 -5.2669 -3.6729 rtDiff
+ 0.2701  0.4585  0.2583 precMz
+-0.6866 -0.9920 -0.6133 rTime
+-0.3064 -0.4625 -0.2762 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.1137 -0.1318 -0.1011 charge1
+ 0.0206  0.0242  0.0180 charge2
+ 0.0241  0.0002  0.0168 charge3
+ 0.0740  0.1167  0.0714 charge4plus
+-17.6495        -14.6762        -9.8611 m0
+Found 23326 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 321835 target PSMs and 135418 decoy PSMs.
+Calculating q values.
+Final list yields 24801 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 183.2 cpu seconds or 65 seconds wall clock time.
+Links before 121128
+Links after 153427
+Added 377838 placeholders.
+Matching features 1->4
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_1_to_4.psms --decoy-results-psms Quandenser_output/percolator/link_1_to_4.psms.decoys
+Started Mon Dec  3 23:49:22 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 707527 positives and 294326 negatives, size ratio=2.40389 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 130075 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.9375 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 159427 PSMs with q<0.02
+Iteration 2:    Estimated 163726 PSMs with q<0.02
+Iteration 3:    Estimated 165321 PSMs with q<0.02
+Iteration 4:    Estimated 166223 PSMs with q<0.02
+Iteration 5:    Estimated 166859 PSMs with q<0.02
+Iteration 6:    Estimated 167250 PSMs with q<0.02
+Iteration 7:    Estimated 167543 PSMs with q<0.02
+Iteration 8:    Estimated 167721 PSMs with q<0.02
+Iteration 9:    Estimated 167840 PSMs with q<0.02
+Iteration 10:   Estimated 167903 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-14.5832        -14.4713        -14.4853        ppmDiff
+-1.2918 -1.2522 -1.2775 rtDiff
+-0.1598 -0.1549 -0.1648 precMz
+-0.1550 -0.1689 -0.1891 rTime
+-0.1506 -0.1686 -0.1474 queryIsPlaceHolder
+ 0.0378  0.0431  0.0393 targetIsPlaceHolder
+-0.0056 -0.0003 -0.0038 charge1
+-0.0201 -0.0169 -0.0194 charge2
+-0.0088 -0.0101 -0.0092 charge3
+ 0.0427  0.0339  0.0401 charge4plus
+-13.5016        -13.3572        -13.3790        m0
+Found 167752 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 349128 target PSMs and 90248 decoy PSMs.
+Calculating q values.
+Final list yields 158997 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 382.4 cpu seconds or 133 seconds wall clock time.
+Links before 0
+Links after 178090
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_1_to_4.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_1_to_4.psms.pout.dinosaur_targets.tsv mzML/B2.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/B2.mzML
+    out dir: Quandenser_output/percolator/search_and_link_1_to_4.psms.pout_dinosaur
+   out name: B2
+
+.                              .
+[==============================]all hills, n=915504
+hill checkSum = 316368476903117
+peaky hills, n=904930
+peaky hill checkSum = 309604263099041
+  nScans    nHills
+         2        0
+         3   263343
+         4   141140
+      5-10   274138
+     10-20   145578
+     20-50    71272
+    50-100     8541
+   100-200      918
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=585594
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_1_to_4.psms.pout_dinosaur/B2.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:36.603
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:25.874
+          deisotope time: _ days __:_2:19.597
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:17.688
+              write time: _ days __:__:_8.106
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_4:07.903
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_1_to_4.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_1_to_4.psms.pout.decoys
+Started Mon Dec  3 23:56:28 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 466921 positives and 338234 negatives, size ratio=1.38047 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 20307 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.64062 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 24991 PSMs with q<0.02
+Iteration 2:    Estimated 28547 PSMs with q<0.02
+Iteration 3:    Estimated 31478 PSMs with q<0.02
+Iteration 4:    Estimated 33489 PSMs with q<0.02
+Iteration 5:    Estimated 34633 PSMs with q<0.02
+Iteration 6:    Estimated 35095 PSMs with q<0.02
+Iteration 7:    Estimated 35190 PSMs with q<0.02
+Iteration 8:    Estimated 35249 PSMs with q<0.02
+Iteration 9:    Estimated 35220 PSMs with q<0.02
+Iteration 10:   Estimated 35361 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-5.1020 -7.5732 -5.0522 ppmDiff
+-4.1254 -5.8143 -4.0742 rtDiff
+ 0.0811  0.1538  0.0944 precMz
+-0.4239 -0.6678 -0.4285 rTime
+-0.2842 -0.4238 -0.2907 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0481 -0.0542 -0.0436 charge1
+ 0.0063  0.0027 -0.0148 charge2
+ 0.0154  0.0160  0.0246 charge3
+ 0.0286  0.0392  0.0392 charge4plus
+-10.8522        -15.9049        -10.7135        m0
+Found 34820 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 341102 target PSMs and 151218 decoy PSMs.
+Calculating q values.
+Final list yields 37023 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 214.8 cpu seconds or 76 seconds wall clock time.
+Links before 178090
+Links after 211880
+Added 346244 placeholders.
+Matching features 2->8
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_2_to_8.psms --decoy-results-psms Quandenser_output/percolator/link_2_to_8.psms.decoys
+Started Mon Dec  3 23:57:56 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 836084 positives and 389799 negatives, size ratio=2.14491 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 148554 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 2.51562 cpu seconds or 3 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 160127 PSMs with q<0.02
+Iteration 2:    Estimated 166936 PSMs with q<0.02
+Iteration 3:    Estimated 171443 PSMs with q<0.02
+Iteration 4:    Estimated 174067 PSMs with q<0.02
+Iteration 5:    Estimated 175726 PSMs with q<0.02
+Iteration 6:    Estimated 176732 PSMs with q<0.02
+Iteration 7:    Estimated 177231 PSMs with q<0.02
+Iteration 8:    Estimated 177747 PSMs with q<0.02
+Iteration 9:    Estimated 177917 PSMs with q<0.02
+Iteration 10:   Estimated 177989 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-13.7497        -13.6737        -18.9197        ppmDiff
+-2.3591 -2.3401 -2.7035 rtDiff
+-0.0911 -0.0948 -0.1182 precMz
+-0.3193 -0.3326 -0.4220 rTime
+-0.2453 -0.2567 -0.3265 queryIsPlaceHolder
+ 0.0888  0.0864  0.0906 targetIsPlaceHolder
+-0.0042 -0.0047 -0.0045 charge1
+-0.0198 -0.0233 -0.0272 charge2
+ 0.0000 -0.0033  0.0010 charge3
+ 0.0300  0.0391  0.0386 charge4plus
+-14.0320        -13.9117        -19.0452        m0
+Found 177782 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 368640 target PSMs and 113900 decoy PSMs.
+Calculating q values.
+Final list yields 159453 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 437.1 cpu seconds or 150 seconds wall clock time.
+Links before 0
+Links after 174308
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_2_to_8.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_2_to_8.psms.pout.dinosaur_targets.tsv mzML/C3.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/C3.mzML
+    out dir: Quandenser_output/percolator/search_and_link_2_to_8.psms.pout_dinosaur
+   out name: C3
+
+.                              .
+[==============================]all hills, n=899367
+hill checkSum = 294190557024675
+peaky hills, n=885902
+peaky hill checkSum = 286054388567294
+  nScans    nHills
+         2        0
+         3   238218
+         4   131029
+      5-10   271676
+     10-20   154615
+     20-50    78496
+    50-100    10591
+   100-200     1277
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=545373
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_2_to_8.psms.pout_dinosaur/C3.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:36.715
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:25.999
+          deisotope time: _ days __:_3:05.742
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:18.428
+              write time: _ days __:__:_8.736
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_5:00.447
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_2_to_8.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_2_to_8.psms.pout.decoys
+Started Tue Dec  4 00:06:17 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 481275 positives and 381517 negatives, size ratio=1.26148 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 19898 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.71875 cpu seconds or 2 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 23320 PSMs with q<0.02
+Iteration 2:    Estimated 25516 PSMs with q<0.02
+Iteration 3:    Estimated 27128 PSMs with q<0.02
+Iteration 4:    Estimated 27891 PSMs with q<0.02
+Iteration 5:    Estimated 28384 PSMs with q<0.02
+Iteration 6:    Estimated 28716 PSMs with q<0.02
+Iteration 7:    Estimated 28915 PSMs with q<0.02
+Iteration 8:    Estimated 29034 PSMs with q<0.02
+Iteration 9:    Estimated 29039 PSMs with q<0.02
+Iteration 10:   Estimated 29049 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-10.8141        -6.4189 -6.0054 ppmDiff
+-9.1529 -5.8085 -5.5570 rtDiff
+ 0.1750  0.0972  0.1374 precMz
+-0.8582 -0.5018 -0.5584 rTime
+-0.4058 -0.1829 -0.2002 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0993 -0.0470 -0.0457 charge1
+ 0.0027  0.0003  0.0011 charge2
+ 0.0445  0.0223  0.0138 charge3
+ 0.0573  0.0269  0.0342 charge4plus
+-22.9689        -14.4891        -13.7335        m0
+Found 28602 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 334587 target PSMs and 172533 decoy PSMs.
+Calculating q values.
+Final list yields 29717 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 235.4 cpu seconds or 82 seconds wall clock time.
+Links before 174308
+Links after 187552
+Added 369350 placeholders.
+Matching features 4->5
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_4_to_5.psms --decoy-results-psms Quandenser_output/percolator/link_4_to_5.psms.decoys
+Started Tue Dec  4 00:07:50 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 465422 positives and 196779 negatives, size ratio=2.3652 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 47852 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 0.953125 cpu seconds or 1 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 71545 PSMs with q<0.02
+Iteration 2:    Estimated 84994 PSMs with q<0.02
+Iteration 3:    Estimated 92356 PSMs with q<0.02
+Iteration 4:    Estimated 96403 PSMs with q<0.02
+Iteration 5:    Estimated 98683 PSMs with q<0.02
+Iteration 6:    Estimated 100040 PSMs with q<0.02
+Iteration 7:    Estimated 100789 PSMs with q<0.02
+Iteration 8:    Estimated 101200 PSMs with q<0.02
+Iteration 9:    Estimated 101561 PSMs with q<0.02
+Iteration 10:   Estimated 101694 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-4.5785 -4.6146 -4.5809 ppmDiff
+-2.2045 -2.0917 -2.1258 rtDiff
+ 0.0274  0.0413  0.0223 precMz
+-0.2479 -0.2683 -0.2879 rTime
+-0.7078 -0.6976 -0.6960 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0246 -0.0407 -0.0212 charge1
+-0.0164 -0.0236 -0.0191 charge2
+-0.0217 -0.0195 -0.0206 charge3
+ 0.0702  0.0929  0.0688 charge4plus
+-6.1135 -6.0204 -6.0175 m0
+Found 101401 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 247161 target PSMs and 83104 decoy PSMs.
+Calculating q values.
+Final list yields 81488 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 176.9 cpu seconds or 62 seconds wall clock time.
+Links before 0
+Links after 125398
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_4_to_5.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_4_to_5.psms.pout.dinosaur_targets.tsv mzML/B3.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/B3.mzML
+    out dir: Quandenser_output/percolator/search_and_link_4_to_5.psms.pout_dinosaur
+   out name: B3
+
+.                              .
+[==============================]all hills, n=908824
+hill checkSum = 311174245896263
+peaky hills, n=898266
+peaky hill checkSum = 304500420927994
+  nScans    nHills
+         2        0
+         3   261057
+         4   140241
+      5-10   270961
+     10-20   144985
+     20-50    71581
+    50-100     8506
+   100-200      935
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=573224
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_4_to_5.psms.pout_dinosaur/B3.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:35.937
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:27.060
+          deisotope time: _ days __:_1:56.225
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:14.212
+              write time: _ days __:__:_7.448
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_3:37.618
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_4_to_5.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_4_to_5.psms.pout.decoys
+Started Tue Dec  4 00:13:15 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 426453 positives and 302708 negatives, size ratio=1.40879 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 18792 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.35938 cpu seconds or 2 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 35014 PSMs with q<0.02
+Iteration 2:    Estimated 41533 PSMs with q<0.02
+Iteration 3:    Estimated 45348 PSMs with q<0.02
+Iteration 4:    Estimated 47154 PSMs with q<0.02
+Iteration 5:    Estimated 47789 PSMs with q<0.02
+Iteration 6:    Estimated 47745 PSMs with q<0.02
+Iteration 7:    Estimated 47735 PSMs with q<0.02
+Iteration 8:    Estimated 47712 PSMs with q<0.02
+Iteration 9:    Estimated 47682 PSMs with q<0.02
+Iteration 10:   Estimated 47611 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-6.4868 -5.1726 -5.3076 ppmDiff
+-3.2300 -2.6703 -2.7316 rtDiff
+ 0.0574  0.0544  0.0346 precMz
+-0.2472 -0.2034 -0.1844 rTime
+-0.7608 -0.6613 -0.6609 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0367 -0.0181 -0.0266 charge1
+ 0.0157 -0.0054  0.0167 charge2
+-0.0154 -0.0043  0.0047 charge3
+ 0.0367  0.0301  0.0022 charge4plus
+-11.8441        -10.2009        -10.3988        m0
+Found 47812 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 318632 target PSMs and 136451 decoy PSMs.
+Calculating q values.
+Final list yields 52259 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 185 cpu seconds or 65 seconds wall clock time.
+Links before 125398
+Links after 162497
+Added 385911 placeholders.
+Matching features 8->7
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_8_to_7.psms --decoy-results-psms Quandenser_output/percolator/link_8_to_7.psms.decoys
+Started Tue Dec  4 00:14:32 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 729215 positives and 312612 negatives, size ratio=2.33265 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 107430 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 2.09375 cpu seconds or 2 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 126662 PSMs with q<0.02
+Iteration 2:    Estimated 138668 PSMs with q<0.02
+Iteration 3:    Estimated 145955 PSMs with q<0.02
+Iteration 4:    Estimated 150322 PSMs with q<0.02
+Iteration 5:    Estimated 153041 PSMs with q<0.02
+Iteration 6:    Estimated 154530 PSMs with q<0.02
+Iteration 7:    Estimated 155551 PSMs with q<0.02
+Iteration 8:    Estimated 156204 PSMs with q<0.02
+Iteration 9:    Estimated 156531 PSMs with q<0.02
+Iteration 10:   Estimated 156847 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-8.2305 -8.9176 -9.0566 ppmDiff
+-2.9370 -2.7083 -2.6067 rtDiff
+-0.0795 -0.0723 -0.0695 precMz
+-0.4320 -0.4196 -0.4365 rTime
+-0.4601 -0.4557 -0.4452 queryIsPlaceHolder
+ 0.0621  0.0581  0.0577 targetIsPlaceHolder
+-0.0195 -0.0195 -0.0235 charge1
+-0.0133 -0.0128 -0.0053 charge2
+ 0.0035  0.0119  0.0046 charge3
+ 0.0361  0.0254  0.0292 charge4plus
+-9.5434 -9.9633 -9.9838 m0
+Found 156509 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 351639 target PSMs and 101174 decoy PSMs.
+Calculating q values.
+Final list yields 141053 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 361.5 cpu seconds or 126 seconds wall clock time.
+Links before 0
+Links after 166067
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_8_to_7.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_8_to_7.psms.pout.dinosaur_targets.tsv mzML/C2.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/C2.mzML
+    out dir: Quandenser_output/percolator/search_and_link_8_to_7.psms.pout_dinosaur
+   out name: C2
+
+.                              .
+[==============================]all hills, n=887877
+hill checkSum = 286477511882960
+peaky hills, n=875064
+peaky hill checkSum = 278831435437233
+  nScans    nHills
+         2        0
+         3   235486
+         4   130287
+      5-10   268124
+     10-20   151802
+     20-50    77426
+    50-100    10609
+   100-200     1330
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=526689
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_8_to_7.psms.pout_dinosaur/C2.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:35.231
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:27.122
+          deisotope time: _ days __:_3:08.833
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:17.777
+              write time: _ days __:__:13.308
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_5:03.796
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_8_to_7.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_8_to_7.psms.pout.decoys
+Started Tue Dec  4 00:22:31 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 480074 positives and 345193 negatives, size ratio=1.39074 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 15778 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.67188 cpu seconds or 2 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 27108 PSMs with q<0.02
+Iteration 2:    Estimated 33374 PSMs with q<0.02
+Iteration 3:    Estimated 36539 PSMs with q<0.02
+Iteration 4:    Estimated 38172 PSMs with q<0.02
+Iteration 5:    Estimated 38805 PSMs with q<0.02
+Iteration 6:    Estimated 38798 PSMs with q<0.02
+Iteration 7:    Estimated 38682 PSMs with q<0.02
+Iteration 8:    Estimated 38664 PSMs with q<0.02
+Iteration 9:    Estimated 38709 PSMs with q<0.02
+Iteration 10:   Estimated 38726 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-10.0144        -8.5231 -7.8349 ppmDiff
+-6.3944 -6.0891 -5.1036 rtDiff
+ 0.2463  0.1432  0.2015 precMz
+-0.7845 -0.6409 -0.6162 rTime
+-0.5627 -0.4787 -0.4278 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0117 -0.0300 -0.0212 charge1
+-0.0338 -0.0235 -0.0176 charge2
+ 0.0534  0.0444  0.0091 charge3
+-0.0059  0.0121  0.0354 charge4plus
+-19.1271        -17.0004        -15.6834        m0
+Found 38093 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 352054 target PSMs and 157385 decoy PSMs.
+Calculating q values.
+Final list yields 41307 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 219.3 cpu seconds or 76 seconds wall clock time.
+Links before 166067
+Links after 186019
+Added 400455 placeholders.
+Matching features 7->6
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/link_7_to_6.psms --decoy-results-psms Quandenser_output/percolator/link_7_to_6.psms.decoys
+Started Tue Dec  4 00:23:58 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 553485 positives and 230674 negatives, size ratio=2.39943 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 70344 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.25 cpu seconds or 2 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 84672 PSMs with q<0.02
+Iteration 2:    Estimated 95334 PSMs with q<0.02
+Iteration 3:    Estimated 102621 PSMs with q<0.02
+Iteration 4:    Estimated 107404 PSMs with q<0.02
+Iteration 5:    Estimated 110878 PSMs with q<0.02
+Iteration 6:    Estimated 113608 PSMs with q<0.02
+Iteration 7:    Estimated 115424 PSMs with q<0.02
+Iteration 8:    Estimated 116591 PSMs with q<0.02
+Iteration 9:    Estimated 117317 PSMs with q<0.02
+Iteration 10:   Estimated 117738 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-8.0639 -7.9980 -7.9586 ppmDiff
+-2.4138 -2.5152 -2.4679 rtDiff
+-0.3508 -0.3808 -0.3750 precMz
+-0.2232 -0.2183 -0.2037 rTime
+-0.4177 -0.4194 -0.4243 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0048  0.0038  0.0011 charge1
+-0.0087 -0.0152 -0.0146 charge2
+-0.0092 -0.0072 -0.0117 charge3
+ 0.0280  0.0235  0.0314 charge4plus
+-8.7791 -8.8148 -8.7379 m0
+Found 117686 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 288845 target PSMs and 89388 decoy PSMs.
+Calculating q values.
+Final list yields 101178 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 235 cpu seconds or 82 seconds wall clock time.
+Links before 0
+Links after 132912
+java -Xmx16G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/percolator/search_and_link_7_to_6.psms.pout_dinosaur --advParams=/usr/share/java/advParams_dinosaur_targeted.txt --mode=target --targets=Quandenser_output/percolator/search_and_link_7_to_6.psms.pout.dinosaur_targets.tsv mzML/C1.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: mzML/C1.mzML
+    out dir: Quandenser_output/percolator/search_and_link_7_to_6.psms.pout_dinosaur
+   out name: C1
+
+.                              .
+[==============================]all hills, n=885425
+hill checkSum = 285307878359220
+peaky hills, n=872610
+peaky hill checkSum = 277653450163240
+  nScans    nHills
+         2        0
+         3   236122
+         4   130068
+      5-10   267832
+     10-20   150404
+     20-50    76122
+    50-100    10760
+   100-200     1302
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+=== IN TARGETED MODE - BEWARE!!! ===
+deisotoping complete
+isotopes, n=525443
+
+=== OUTPUT ===
+  writing targeted isotope pattern file Quandenser_output/percolator/search_and_link_7_to_6.psms.pout_dinosaur/C1.targets.csv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:34.171
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:26.282
+          deisotope time: _ days __:_2:55.394
+ iso pattern report time: _ days __:__:__.___
+         mass calib time: _ days __:__:24.156
+              write time: _ days __:__:13.054
+
+         deiso edge time: _ days __:__:__.___
+          deiso rip time: _ days __:__:__.___
+       deiso deconv time: _ days __:__:__.___
+
+total time: _ days __:_4:53.274
+Features:
+ppmDiff rtDiff precMz rTime queryIsPlaceHolder targetIsPlaceHolder charge1 charge2 charge3 charge4plus
+Percolator version 3.02.nightly-4-2a55db2, Build Date Nov 27 2018 17:02:04
+Copyright (c) 2006-9 University of Washington. All rights reserved.
+Written by Lukas Käll (lukall@u.washington.edu) in the
+Department of Genome Sciences at the University of Washington.
+Issued command:
+percolator --only-psms --post-processing-tdc input_file_placeholder --trainFDR 0.02 --testFDR 0.02 --results-psms Quandenser_output/percolator/search_and_link_7_to_6.psms.pout --decoy-results-psms Quandenser_output/percolator/search_and_link_7_to_6.psms.pout.decoys
+Started Tue Dec  4 00:31:21 2018
+Hyperparameters: selectionFdr=0.02, Cpos=0, Cneg=0, maxNiter=10
+FeatureNames::getNumFeatures(): 10
+Train/test set contains 474635 positives and 334152 negatives, size ratio=1.42042 and pi0=1
+Selecting Cpos by cross-validation.
+Selecting Cneg by cross-validation.
+Found 10277 test set positives with q<0.02 in initial direction
+Reading in data and feature calculation took 1.6875 cpu seconds or 2 seconds wall clock time.
+---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.02, fdr=0.02
+Iteration 1:    Estimated 22982 PSMs with q<0.02
+Iteration 2:    Estimated 29341 PSMs with q<0.02
+Iteration 3:    Estimated 32969 PSMs with q<0.02
+Iteration 4:    Estimated 34394 PSMs with q<0.02
+Iteration 5:    Estimated 34893 PSMs with q<0.02
+Iteration 6:    Estimated 36012 PSMs with q<0.02
+Iteration 7:    Estimated 36139 PSMs with q<0.02
+Iteration 8:    Estimated 36402 PSMs with q<0.02
+Iteration 9:    Estimated 36801 PSMs with q<0.02
+Iteration 10:   Estimated 37016 PSMs with q<0.02
+Learned normalized SVM weights for the 3 cross-validation splits:
+ Split1  Split2  Split3 FeatureName
+-4.4431 -4.2276 -4.0945 ppmDiff
+-2.9508 -2.9346 -2.9615 rtDiff
+ 0.1320  0.1305  0.1760 precMz
+-0.6147 -0.6249 -0.6731 rTime
+-0.6705 -0.6820 -0.6983 queryIsPlaceHolder
+ 0.0000  0.0000  0.0000 targetIsPlaceHolder
+-0.0277 -0.0411 -0.0497 charge1
+-0.0036  0.0035  0.0123 charge2
+-0.0008  0.0110  0.0003 charge3
+ 0.0365  0.0292  0.0401 charge4plus
+-8.9444 -8.7263 -8.6176 m0
+Found 37111 test set PSMs with q<0.02.
+Selected best-scoring PSM per scan+expMass (target-decoy competition): 353617 target PSMs and 151070 decoy PSMs.
+Calculating q values.
+Final list yields 41711 target PSMs with q<0.02.
+Calculating posterior error probabilities (PEPs).
+Processing took 206 cpu seconds or 72 seconds wall clock time.
+Links before 132912
+Links after 167603
+Added 414598 placeholders.
+MaRaCluster version 0.05.nightly-3-f4d48a9, Build Date Nov 27 2018 17:01:56
+Copyright (c) 2015-17 Matthew The. All rights reserved.
+Written by Matthew The (matthew.the@scilifelab.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+maracluster batch --splitMassChargeStates --batch file_list.txt --clusterThresholds -10.0 --pvalThreshold -10.0 --output-folder Quandenser_output/maracluster_extra_features
+Started Tue Dec  4 00:32:41 2018
+
+Splitting spectra by precursor Mz
+Accumulating peak counts and precursor Mzs
+  Processing mzML/A1.mzML (11%).
+  Processing mzML/C2.mzML (88%).  Processing mzML/B1.mzML (44%).
+  Processing mzML/B2.mzML (55%).
+  Processing mzML/B3.mzML (66%).
+  Processing mzML/A2.mzML (22%).
+  Processing mzML/C1.mzML (77%).
+
+  Processing mzML/A3.mzML (33%).
+  Processing mzML/C3.mzML (100%).
+Writing peak counts to file
+Finished writing peak counts to file
+Estimated number of pair comparisons: 20112343
+Dividing spectra in 1 bins of ~2 CPU hours each.
+  Processing mzML/A1.mzML (11%).
+  Processing mzML/B2.mzML (55%).
+  Processing mzML/B3.mzML (66%).
+  Processing mzML/C1.mzML (77%).
+  Processing mzML/A3.mzML (33%).
+  Processing mzML/A2.mzML (22%).
+  Processing mzML/C2.mzML (88%).
+  Processing mzML/B1.mzML (44%).
+  Processing mzML/C3.mzML (100%).
+Reading in spectra from Quandenser_output/maracluster_extra_features/300.dat
+Read 570110 mass charge states.
+Inserting spectra into database
+Successfully inserted spectrum 1/570110 (0%)
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Successfully inserted spectrum 50001/570110 (8%)
+  Elapsed time: 28.75 cpu seconds or 0 min 4 sec wall time.
+  Estimated time remaining: 0 min 41 sec wall time.
+Successfully inserted spectrum 100001/570110 (17%)
+  Elapsed time: 57.7031 cpu seconds or 0 min 8 sec wall time.
+  Estimated time remaining: 0 min 37 sec wall time.
+Successfully inserted spectrum 150001/570110 (26%)
+  Elapsed time: 86.6562 cpu seconds or 0 min 12 sec wall time.
+  Estimated time remaining: 0 min 33 sec wall time.
+Successfully inserted spectrum 200001/570110 (35%)
+  Elapsed time: 116.172 cpu seconds or 0 min 16 sec wall time.
+  Estimated time remaining: 0 min 29 sec wall time.
+Successfully inserted spectrum 250001/570110 (43%)
+  Elapsed time: 146.188 cpu seconds or 0 min 20 sec wall time.
+  Estimated time remaining: 0 min 25 sec wall time.
+Successfully inserted spectrum 300001/570110 (52%)
+  Elapsed time: 176.625 cpu seconds or 0 min 25 sec wall time.
+  Estimated time remaining: 0 min 22 sec wall time.
+Successfully inserted spectrum 350001/570110 (61%)
+  Elapsed time: 207.625 cpu seconds or 0 min 29 sec wall time.
+  Estimated time remaining: 0 min 18 sec wall time.
+Successfully inserted spectrum 400001/570110 (70%)
+  Elapsed time: 238.531 cpu seconds or 0 min 33 sec wall time.
+  Estimated time remaining: 0 min 14 sec wall time.
+Successfully inserted spectrum 450001/570110 (78%)
+  Elapsed time: 269.766 cpu seconds or 0 min 37 sec wall time.
+  Estimated time remaining: 0 min 9 sec wall time.
+Successfully inserted spectrum 500001/570110 (87%)
+  Elapsed time: 301.469 cpu seconds or 0 min 41 sec wall time.
+  Estimated time remaining: 0 min 5 sec wall time.
+Successfully inserted spectrum 550001/570110 (96%)
+  Elapsed time: 335.078 cpu seconds or 0 min 46 sec wall time.
+  Estimated time remaining: 0 min 1 sec wall time.
+Sorting pvalue vectors
+Reloaded 569953 pvalue vectors.
+Successfully inserted spectra into database
+Writing pvalue vectors
+Writing pvalue vector 0/569953
+Writing pvalue vector 100000/569953
+Writing pvalue vector 200000/569953
+Writing pvalue vector 300000/569953
+Writing pvalue vector 400000/569953
+Writing pvalue vector 500000/569953
+Finished writing pvalue vectors
+Calculating pvalues
+Reading precursor m/z limits.
+Processing pvalue vector Processing pvalue vector 1/569953 (0%).
+Processing pvalue vector 20001/569953 (3%).
+Processing pvalue vector 50001/569953 (8%).
+Processing pvalue vector 40001/569953 (7%).
+Processing pvalue vector 70001/569953 (12%).
+Processing pvalue vector 30001/569953 (5%).
+10001/569953 (1%).
+Processing pvalue vector 60001/569953 (10%).
+Processing pvalue vector 80001/569953 (14%).
+Processing pvalue vector 90001/569953 (15%).
+Processing pvalue vector 100001/569953 (17%).
+Processing pvalue vector 110001/569953 (19%).
+Processing pvalue vector 120001/569953 (21%).
+Processing pvalue vector 130001/569953 (22%).
+Processing pvalue vector 140001/569953 (24%).
+Processing pvalue vector 150001/569953 (26%).
+Processing pvalue vector 160001/569953 (28%).
+Processing pvalue vector 170001/569953 (29%).
+Processing pvalue vector 180001/569953 (31%).
+Processing pvalue vector 190001/569953 (33%).
+Processing pvalue vector 200001/569953 (35%).
+Processing pvalue vector 210001/569953 (36%).
+Processing pvalue vector 220001/569953 (38%).
+Processing pvalue vector 230001/569953 (40%).
+Processing pvalue vector 240001/569953 (42%).
+Processing pvalue vector 250001/569953 (43%).
+Processing pvalue vector 260001/569953 (45%).
+Processing pvalue vector 270001/569953 (47%).
+Processing pvalue vector 280001/569953 (49%).
+Processing pvalue vector 290001/569953 (50%).
+Processing pvalue vector 300001/569953 (52%).
+Processing pvalue vector 310001/569953 (54%).
+Processing pvalue vector 320001/569953 (56%).
+Processing pvalue vector 330001/569953 (57%).
+Processing pvalue vector 340001/569953 (59%).
+Processing pvalue vector 350001/569953 (61%).
+Processing pvalue vector 360001/569953 (63%).
+Processing pvalue vector 370001/569953 (64%).
+Processing pvalue vector 380001/569953 (66%).
+Processing pvalue vector 390001/569953 (68%).
+Processing pvalue vector 400001/569953 (70%).
+Processing pvalue vector 410001/569953 (71%).
+Processing pvalue vector 420001/569953 (73%).
+Processing pvalue vector 430001/569953 (75%).
+Processing pvalue vector 440001/569953 (77%).
+Processing pvalue vector 450001/569953 (78%).
+Processing pvalue vector 460001/569953 (80%).
+Processing pvalue vector 470001/569953 (82%).
+Processing pvalue vector 480001/569953 (84%).
+Processing pvalue vector 490001/569953 (85%).
+Processing pvalue vector 500001/569953 (87%).
+Processing pvalue vector 510001/569953 (89%).
+Processing pvalue vector 520001/569953 (91%).
+Processing pvalue vector 530001/569953 (92%).
+Processing pvalue vector 540001/569953 (94%).
+Processing pvalue vector 550001/569953 (96%).
+Processing pvalue vector 560001/569953 (98%).
+Starting clustering job: batches 0-56
+Clustering 1205306 pvalues
+Starting MinHeap clustering
+  Loading new edges.
+It. 0: minRow = 1 35687, minCol = 2 35605, minEl = -71.3983, edgesLeft = 1205276
+It. 10000: minRow = 3000000000 3371, minCol = 8 31617, minEl = -49.1316, edgesLeft = 1258119
+It. 20000: minRow = 3000000000 9579, minCol = 3000000000 2741, minEl = -45.4534, edgesLeft = 1308128
+It. 30000: minRow = 3000000000 21903, minCol = 8 25993, minEl = -42.8225, edgesLeft = 1355190
+It. 40000: minRow = 4 19981, minCol = 5 19953, minEl = -40.6379, edgesLeft = 1391996
+It. 50000: minRow = 6 19814, minCol = 7 20008, minEl = -38.6096, edgesLeft = 1416819
+It. 60000: minRow = 0 16542, minCol = 2 16823, minEl = -36.6306, edgesLeft = 1433149
+It. 70000: minRow = 4 23950, minCol = 5 23999, minEl = -34.6644, edgesLeft = 1435977
+It. 80000: minRow = 3000000000 69688, minCol = 3000000000 37640, minEl = -32.6463, edgesLeft = 1417124
+It. 90000: minRow = 4 9928, minCol = 5 9949, minEl = -30.4526, edgesLeft = 1376368
+It. 100000: minRow = 3000000000 90745, minCol = 3000000000 77228, minEl = -28.0263, edgesLeft = 1306666
+It. 110000: minRow = 3000000000 42313, minCol = 4 25161, minEl = -25.2036, edgesLeft = 1197015
+It. 120000: minRow = 3000000000 95348, minCol = 3000000000 92809, minEl = -21.857, edgesLeft = 1033732
+It. 130000: minRow = 3000000000 109978, minCol = 3000000000 103934, minEl = -17.7924, edgesLeft = 778904
+It. 140000: minRow = 3000000000 124732, minCol = 3000000000 120880, minEl = -12.8839, edgesLeft = 352684
+Finished MinHeap clustering
+  Elapsed time: 3.67188 cpu seconds or 0 min 4 sec wall time.
+Retained 29 pvalues
+  Elapsed time: 10.9688 cpu seconds or 0 min 5 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Starting poisoned clustering job: batches 0-0
+Clustering 29 pvalues
+Starting MinHeap clustering
+  Loading new edges.
+Finished MinHeap clustering
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Retained 1 pvalues
+Finished calculating pvalues.
+  Elapsed time: 10.9688 cpu seconds or 0 min 5 sec wall time.
+  Estimated time remaining: 0 min 0 sec wall time.
+Starting p-value clustering.
+Estimated 29 p-values in this file
+Writing 1 part files
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Sorting and filtering bin 1/1 (100%)
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Writing p-value 29/29 (100%)
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Starting MinHeap clustering
+  Creating cluster membership map.
+  Updating incomplete edges (0).
+  Loading new edges.
+  Sorting 29 edges.
+  Adding new edges.
+  Loaded new edges: new: 29, total: 29/29 (100%).
+It. 0: minRow = 4 7119, minCol = 8 6786, minEl = -34.0976
+Finished MinHeap clustering
+  Elapsed time: 0 cpu seconds or 0 min 0 sec wall time.
+Reading in p-value tree.
+Reading in p-value tree.
+Reading in scan descriptions.
+WARNING: Could not find scan desc file.
+Writing clusterings for 1 thresholds.
+Writing clusters to Quandenser_output/maracluster_extra_features/MaRaCluster.clusters_p10.tsv
+clust_size      #clusters       #spectra
+1       70618   70618
+2-3     17784   43536
+4-7     14691   78115
+8-15    5641    53828
+16-31   326     6236
+32-63   29      1228
+64-127  6       525
+128-255 1       205
+256-511 0       0
+512+    0       0
+total   109096  254291
+
+Finished writing clusterings.
+Running MaRaCluster took: 545.031 cpu seconds or 166 seconds wall time
+Serialized spectrum to precursor map
+Processing pair 1/16: 6->7 (107611 links)
+Processing pair 2/16: 5->4 (112454 links)
+Processing pair 3/16: 7->8 (161375 links)
+Processing pair 4/16: 4->1 (173394 links)
+Processing pair 5/16: 8->2 (205631 links)
+Processing pair 6/16: 1->0 (239262 links)
+Processing pair 7/16: 2->0 (263335 links)
+Processing pair 8/16: 3->0 (113974 links)
+Processing pair 9/16: 0->1 (531265 links)
+Processing pair 10/16: 0->2 (531265 links)
+Processing pair 11/16: 0->3 (531265 links)
+Processing pair 12/16: 1->4 (558124 links)
+Processing pair 13/16: 2->8 (556902 links)
+Processing pair 14/16: 4->5 (548408 links)
+Processing pair 15/16: 8->7 (586474 links)
+Processing pair 16/16: 7->6 (582201 links)
+Mapping features to spectra.
+Writing feature group 10000
+Writing feature group 20000
+Writing feature group 30000
+Writing feature group 40000
+Writing feature group 50000
+MaRaCluster version 0.05.nightly-3-f4d48a9, Build Date Nov 27 2018 17:01:56
+Copyright (c) 2015-17 Matthew The. All rights reserved.
+Written by Matthew The (matthew.the@scilifelab.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+maracluster consensus --splitMassChargeStates --batch file_list.txt --clusterThresholds -10.0 --pvalThreshold -10.0 --output-folder Quandenser_output/consensus_spectra --clusterFile Quandenser_output/maracluster_extra_features/MaRaCluster.clusters_p10.tsv
+Started Tue Dec  4 00:35:57 2018
+
+Parsing cluster file
+Finished parsing cluster file
+Merging clusters
+Splitting mzML/C3.mzML (22%)
+Splitting mzML/B3.mzML (77%)
+Splitting mzML/B1.mzML (88%)
+Splitting mzML/B2.mzML (66%)
+Splitting mzML/C2.mzML (33%)
+Splitting mzML/A1.mzML (11%)
+Splitting mzML/A3.mzML (55%)
+Splitting mzML/A2.mzML (44%)
+Splitting mzML/C1.mzML (100%)
+Writing file Quandenser_output/consensus_spectra/MaRaCluster.consensus.part0_0.ms2
+Writing file Quandenser_output/consensus_spectra/MaRaCluster.consensus.part1_0.ms2
+Finished writing file Quandenser_output/consensus_spectra/MaRaCluster.consensus.part1_0.ms2
+Finished writing file Quandenser_output/consensus_spectra/MaRaCluster.consensus.part0_0.ms2
+Finished splitting ms2 files
+Merging spectra in bin 1/2
+  Processing consensus spectra.
+  Batch 1/1
+  Merging spectra
+Merging spectra in bin 2/2
+  Processing consensus spectra.
+  Batch 1/1
+  Merging spectra
+Creating merged MSData file
+Writing file Quandenser_output/consensus_spectra/MaRaCluster.consensus.part1.ms2
+Finished writing file Quandenser_output/consensus_spectra/MaRaCluster.consensus.part1.ms2
+Finished merging clusters
+Running Quandenser took: 7411.55 cpu seconds or 7369 seconds wall time
+root@DESKTOP-NUGQV58:/mnt/d/Downloads/BB2490/data/Example# ./search.sh
+INFO: Writing results to output directory 'crux-output'.
+INFO: CPU: DESKTOP-NUGQV58
+INFO: Crux version: 3.2-0d57cff
+INFO: Tue Dec  4 04:52:43 STD 2018
+INFO: Beginning tide-index.
+INFO: Running tide-index...
+INFO: Writing results to output directory 'iprg2016_with_labels.fasta.index'.
+INFO: Reading iprg2016_with_labels.fasta and computing unmodified peptides...
+INFO: Writing reverse-protein fasta and decoys...
+INFO: Reading proteins
+INFO: Computing modified peptides...
+INFO: Created 67625 peptides.
+INFO: Precomputing theoretical spectra...
+INFO: Elapsed time: 0.361 s
+INFO: Finished crux tide-index.
+INFO: Return Code:0
+WARNING: The output directory 'crux-output' already exists.
+Existing files will not be overwritten.
+INFO: CPU: DESKTOP-NUGQV58
+INFO: Crux version: 3.2-0d57cff
+INFO: Tue Dec  4 04:52:43 STD 2018
+INFO: Beginning tide-search.
+INFO: Running tide-search...
+INFO: Number of Threads: 8
+INFO: Reading index iprg2016_with_labels.fasta.index
+INFO: Read 1383 target proteins
+INFO: Converting Quandenser_output/consensus_spectra/MaRaCluster.consensus.part1.ms2 to spectrumrecords format
+INFO: Elapsed time starting conversion: 0.0646 s
+INFO: Reading spectrum file crux-output/MaRaCluster.consensus.part1.ms2.spectrumrecords.tmp.
+INFO: Read 57028 spectra.
+INFO: Starting search.
+INFO: 1000 spectrum-charge combinations searched, 2% complete
+INFO: 2000 spectrum-charge combinations searched, 4% complete
+INFO: 3000 spectrum-charge combinations searched, 5% complete
+INFO: 4000 spectrum-charge combinations searched, 7% complete
+INFO: 5000 spectrum-charge combinations searched, 9% complete
+INFO: 6000 spectrum-charge combinations searched, 11% complete
+INFO: 7000 spectrum-charge combinations searched, 12% complete
+INFO: 8000 spectrum-charge combinations searched, 14% complete
+INFO: 9000 spectrum-charge combinations searched, 16% complete
+INFO: 10000 spectrum-charge combinations searched, 18% complete
+INFO: 11000 spectrum-charge combinations searched, 19% complete
+INFO: 12000 spectrum-charge combinations searched, 21% complete
+INFO: 13000 spectrum-charge combinations searched, 23% complete
+INFO: 14000 spectrum-charge combinations searched, 25% complete
+INFO: 15000 spectrum-charge combinations searched, 26% complete
+INFO: 16000 spectrum-charge combinations searched, 28% complete
+INFO: 17000 spectrum-charge combinations searched, 30% complete
+INFO: 18000 spectrum-charge combinations searched, 32% complete
+INFO: 19000 spectrum-charge combinations searched, 33% complete
+INFO: 20000 spectrum-charge combinations searched, 35% complete
+INFO: 21000 spectrum-charge combinations searched, 37% complete
+INFO: 22000 spectrum-charge combinations searched, 39% complete
+INFO: 23000 spectrum-charge combinations searched, 40% complete
+INFO: 24000 spectrum-charge combinations searched, 42% complete
+INFO: 25000 spectrum-charge combinations searched, 44% complete
+INFO: 26000 spectrum-charge combinations searched, 46% complete
+INFO: 27000 spectrum-charge combinations searched, 47% complete
+INFO: 28000 spectrum-charge combinations searched, 49% complete
+INFO: 29000 spectrum-charge combinations searched, 51% complete
+INFO: 30000 spectrum-charge combinations searched, 53% complete
+INFO: 31000 spectrum-charge combinations searched, 54% complete
+INFO: 32000 spectrum-charge combinations searched, 56% complete
+INFO: 33000 spectrum-charge combinations searched, 58% complete
+INFO: 34000 spectrum-charge combinations searched, 60% complete
+INFO: 35000 spectrum-charge combinations searched, 61% complete
+INFO: 36000 spectrum-charge combinations searched, 63% complete
+INFO: 37000 spectrum-charge combinations searched, 65% complete
+INFO: 38000 spectrum-charge combinations searched, 67% complete
+INFO: 39000 spectrum-charge combinations searched, 68% complete
+INFO: 40000 spectrum-charge combinations searched, 70% complete
+INFO: 41000 spectrum-charge combinations searched, 72% complete
+INFO: 42000 spectrum-charge combinations searched, 74% complete
+INFO: 43000 spectrum-charge combinations searched, 75% complete
+INFO: 44000 spectrum-charge combinations searched, 77% complete
+INFO: 45000 spectrum-charge combinations searched, 79% complete
+INFO: 46000 spectrum-charge combinations searched, 81% complete
+INFO: 47000 spectrum-charge combinations searched, 82% complete
+INFO: 48000 spectrum-charge combinations searched, 84% complete
+INFO: 49000 spectrum-charge combinations searched, 86% complete
+INFO: 50000 spectrum-charge combinations searched, 88% complete
+INFO: 51000 spectrum-charge combinations searched, 89% complete
+INFO: 52000 spectrum-charge combinations searched, 91% complete
+INFO: 53000 spectrum-charge combinations searched, 93% complete
+INFO: 54000 spectrum-charge combinations searched, 95% complete
+INFO: [Thread 4]: Deleted 0 precursor, 0 isotope and 19028 out-of-range peaks.
+INFO: [Thread 4]: Retained 98.0032% of peaks.
+INFO: 55000 spectrum-charge combinations searched, 96% complete
+INFO: [Thread 0]: Deleted 0 precursor, 0 isotope and 19063 out-of-range peaks.
+INFO: [Thread 0]: Retained 97.9875% of peaks.
+INFO: [Thread 3]: Deleted 0 precursor, 0 isotope and 18342 out-of-range peaks.
+INFO: [Thread 3]: Retained 98.0648% of peaks.
+INFO: 56000 spectrum-charge combinations searched, 98% complete
+INFO: [Thread 1]: Deleted 0 precursor, 0 isotope and 19956 out-of-range peaks.
+INFO: [Thread 1]: Retained 97.9059% of peaks.
+INFO: [Thread 2]: Deleted 0 precursor, 0 isotope and 19414 out-of-range peaks.
+INFO: [Thread 2]: Retained 97.967% of peaks.
+INFO: [Thread 6]: Deleted 0 precursor, 0 isotope and 18644 out-of-range peaks.
+INFO: [Thread 6]: Retained 98.0383% of peaks.
+INFO: [Thread 7]: Deleted 0 precursor, 0 isotope and 17106 out-of-range peaks.
+INFO: [Thread 7]: Retained 98.1881% of peaks.
+INFO: 57000 spectrum-charge combinations searched, 100% complete
+INFO: [Thread 5]: Deleted 0 precursor, 0 isotope and 19538 out-of-range peaks.
+INFO: [Thread 5]: Retained 97.9343% of peaks.
+INFO: Time per spectrum-charge combination: 0.000284 s.
+INFO: Average number of candidates per spectrum-charge combination: 5.016676
+INFO: Elapsed time: 16.2 s
+INFO: Finished crux tide-search.
+INFO: Return Code:0
+WARNING: The output directory 'crux-output' already exists.
+Existing files will not be overwritten.
+INFO: CPU: DESKTOP-NUGQV58
+INFO: Crux version: 3.2-0d57cff
+INFO: Tue Dec  4 04:53:00 STD 2018
+INFO: Beginning percolator.
+INFO: Converting input to pin format.
+INFO: Parsing crux-output/tide-search.txt
+INFO: Assigning index 0 to Quandenser_output/consensus_spectra/MaRaCluster.consensus.part1.ms2.
+INFO: There are 98754 target matches and 95630 decoys
+INFO: Maximum observed charge is 5.
+INFO: File conversion complete.
+INFO: Percolator version 3.02.0, Build Date May 30 2018 17:04:51
+INFO: Copyright (c) 2006-9 University of Washington. All rights reserved.
+INFO: Written by Lukas Käll (lukall@u.washington.edu) in the
+INFO: Department of Genome Sciences at the University of Washington.
+INFO: Issued command:
+INFO: percolator --results-peptides crux-output/percolator.target.peptides.txt --decoy-results-peptides crux-output/percolator.decoy.peptides.txt --results-psms crux-output/percolator.target.psms.txt --decoy-results-psms crux-output/percolator.decoy.psms.txt --verbose 2 --protein-decoy-pattern decoy_ --seed 1 --subset-max-train 0 --trainFDR 0.01 --testFDR 0.01 --maxiter 10 --search-input auto --no-schema-validation --protein-enzyme trypsin --post-processing-tdc crux-output/make-pin.pin
+INFO: Started Tue Dec  4 04:53:06 2018
+INFO: Hyperparameters: selectionFdr=0.01, Cpos=0, Cneg=0, maxNiter=10
+INFO: Reading tab-delimited input from datafile crux-output/make-pin.pin
+INFO: Features:
+INFO: deltLCn deltCn XCorr PepLen Charge1 Charge2 Charge3 Charge4 Charge5 enzN enzC enzInt lnNumDSP dM absdM
+INFO: Found 47248 PSMs
+INFO: Concatenated search input detected and --post-processing-tdc flag set. Applying target-decoy competition on Percolator scores.
+INFO: Train/test set contains 26028 positives and 21220 negatives, size ratio=1.22658 and pi0=1
+INFO: Selecting Cpos by cross-validation.
+INFO: Selecting Cneg by cross-validation.
+INFO: Split 1:  Selected feature 3 as initial direction. Could separate 1813 training set positives with q<0.01 in that direction.
+INFO: Split 2:  Selected feature 3 as initial direction. Could separate 1804 training set positives with q<0.01 in that direction.
+INFO: Split 3:  Selected feature 3 as initial direction. Could separate 1792 training set positives with q<0.01 in that direction.
+INFO: Found 2741 test set positives with q<0.01 in initial direction
+INFO: Reading in data and feature calculation took 1.71875 cpu seconds or 2 seconds wall clock time.
+INFO: ---Training with Cpos selected by cross validation, Cneg selected by cross validation, initial_fdr=0.01, fdr=0.01
+INFO: Iteration 1:      Estimated 3093 PSMs with q<0.01
+INFO: Iteration 2:      Estimated 3232 PSMs with q<0.01
+INFO: Iteration 3:      Estimated 3245 PSMs with q<0.01
+INFO: Iteration 4:      Estimated 3281 PSMs with q<0.01
+INFO: Iteration 5:      Estimated 3291 PSMs with q<0.01
+INFO: Iteration 6:      Estimated 3284 PSMs with q<0.01
+INFO: Iteration 7:      Estimated 3284 PSMs with q<0.01
+INFO: Iteration 8:      Estimated 3284 PSMs with q<0.01
+INFO: Iteration 9:      Estimated 3279 PSMs with q<0.01
+INFO: Iteration 10:     Estimated 3280 PSMs with q<0.01
+INFO: Learned normalized SVM weights for the 3 cross-validation splits:
+INFO:  Split1    Split2  Split3 FeatureName
+INFO: -0.2717   -0.0420 -0.2868 deltLCn
+INFO:  0.5359    0.3143  0.4740 deltCn
+INFO:  1.8842    3.0926  2.4757 XCorr
+INFO: -0.1773   -0.2451 -0.0428 PepLen
+INFO:  0.0981    0.1638  0.1657 Charge1
+INFO:  0.0044    0.0006  0.2521 Charge2
+INFO: -0.0945   -0.2535 -0.2792 Charge3
+INFO:  0.0445    0.2563  0.0959 Charge4
+INFO:  0.0427   -0.0226 -0.1796 Charge5
+INFO:  0.0000    0.0000  0.0000 enzN
+INFO:  0.0000    0.0000  0.0000 enzC
+INFO: -0.2104   -0.6214 -0.0687 enzInt
+INFO: -0.1194   -0.2678 -0.1157 lnNumDSP
+INFO:  1.2887    2.9903  1.4390 dM
+INFO: -2.2690   -3.5380 -2.4978 absdM
+INFO: -4.9136   -7.6864 -5.8473 m0
+INFO: Found 3183 test set PSMs with q<0.01.
+INFO: Selected best-scoring PSM per scan+expMass (target-decoy competition): 26028 target PSMs and 21220 decoy PSMs.
+INFO: Tossing out "redundant" PSMs keeping only the best scoring PSM for each unique peptide.
+INFO: Calculating q values.
+INFO: Final list yields 1797 target peptides with q<0.01.
+INFO: Calculating posterior error probabilities (PEPs).
+INFO: Processing took 42.67 cpu seconds or 30 seconds wall clock time.
+INFO: Elapsed time: 38.4 s
+INFO: Finished crux percolator.
+INFO: Return Code:0

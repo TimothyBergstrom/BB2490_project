@@ -104,6 +104,7 @@ So this means that neither networks worked.
 However, I went to school and tested it on the network there. Now, downloading the repos recursively works fine (since there is no block when using the intranet in school). The AV does not block any packages, since it is deactivated.
 However, the problem with Boost libraries persist. It still says:
 
+```
 CMake Error at /usr/share/cmake-3.10/Modules/FindBoost.cmake:1947 (message):
   Unable to find the requested Boost libraries.
 
@@ -128,6 +129,7 @@ CMake Error at /usr/share/cmake-3.10/Modules/FindBoost.cmake:1947 (message):
   to the location of Boost.
 Call Stack (most recent call first):
   ext/maracluster/src/CMakeLists.txt:22 (find_package)
+```
   
 However, the .deb file works, so it doesn't matter at the moment.
 

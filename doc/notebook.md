@@ -151,3 +151,15 @@ Adding "7" to all filenames with gcc in them made it work. I successfully compil
 Maybe I'll test it on a fresh install of ubuntu to see if the problem persist, maybe it was just a collision between already installed gcc.
 
 
+### 2018-12-03, 17:20
+
+Yes, a fresh install of ubuntu gave the same output. Maybe some change in a dependency made FindBoost look for gcc7 files instead, or proteowizard 
+
+
+### 2018-12-03, 18:00
+
+There's a total of 147,3 GB of files in mzML format in PRIDE, but there are about three times more data in RAW format (quandenser uses mzML files).
+Instead of downloading every RAW file by itself and converting it to mzML, I created a simple python script that downloaded the files one after the other.
+The script can be find in /bin. I also created a simple .sh script that outputs a batch.txt with full path to the mzML files, which quandenser uses.
+Downloading all the data will take about 24 hours.
+

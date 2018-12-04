@@ -190,3 +190,5 @@ We also talked briefly about dividing the data sets to minimize computational ti
 
 I will try and record the CPU and RAM usage of quandenser, and maybe dial down the RAM allocated to Dinosaur. Perhaps I could run two parallel processes at once, each process
 calculating a couple of mzML files (such as light/co2).
+
+PS: If we use Crux, we could use "Synechocystis_PCC6803.fasta" as the fasta database

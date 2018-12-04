@@ -91,7 +91,8 @@ I just can't get it to work. I've tried a lot of stuff, purging the old boost fi
 
 I got it to work with the help of Lukas Käll and Patrick Truong. Instead of compiling everything from scratch, I forgot to look at the "releases" folder where the .deb files are stored. My fault.
 
-I also found what the problem was with both the compilation and the --recursive issues. The problem was intranet-issues + antivirus. I tried to install on both my laptop and my desktop on 2 networks, my home router and using my phone as a hotspot by sharing the 4g connection.
+I also found what the problem was with both the compilation and the --recursive issues.
+The problem was intranet-issues + antivirus. I tried to install on both my laptop and my desktop on 2 networks, my home router and using my phone as a hotspot by sharing the 4g connection.
 I had added a ssh-key to my account beforehand for both laptop and desktop, so it was not that problem.
 
 The AV blocked some packages from downloading (for some reason) making the dependencies fail. I deactivated my AV beforehand to test whether that was the problem after a fresh Ubuntu installation and the packages installed correctly.
@@ -128,7 +129,6 @@ CMake Error at /usr/share/cmake-3.10/Modules/FindBoost.cmake:1947 (message):
 Call Stack (most recent call first):
   ext/maracluster/src/CMakeLists.txt:22 (find_package)
   
-  
 However, the .deb file works, so it doesn't matter at the moment.
 
 
@@ -149,4 +149,5 @@ The output of the terminal when gcc have not been renamed has been added to "ter
 
 Adding "7" to all filenames with gcc in them made it work. I successfully compiled the .deb file (which was already found in the release folder in github)
 Maybe I'll test it on a fresh install of ubuntu to see if the problem persist, maybe it was just a collision between already installed gcc.
+
 

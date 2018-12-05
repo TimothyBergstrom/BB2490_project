@@ -217,3 +217,20 @@ No matter what I do seems to make it work. When I try to run it on the file, it 
 And that was when I set it to 16Gb of memory (using command "--dinosaur-memory 16G")
 
 
+### 11:00
+
+The files used in the example is 0.5 Gb while the one I tried was 2.6 Gb. When I try to run just the 0.5 Gb file, it works fine. Perhaps I could split the mzML file into
+many smaller parts and run them in a batch, annotating that they are all from the same sample (adding A to the end in the batch file). First, I need to research if it even is possible
+to split mzML without losing data. If it is possible, I could try to make a XML parser that divides sections into files, if I can learn more about the structure and what to include in each file
+mzML files.
+
+### 17:00
+
+My group members have the same problem as me with the ram issue. I still haven't found a way to split the files.
+
+Also, I found a way to fix the gcc issue when compiling, by adding this line after line 78 in admin/builders/ubuntu64\_build
+
+	find ../lib -name '*gcc*' -exec bash -c ' gcc\_name="gcc$(gcc -dumpversion)"; mv $0 ${0/gcc/$gcc\_name}' {} \;
+
+I tried it on a toy example, and it should work when compiling.
+

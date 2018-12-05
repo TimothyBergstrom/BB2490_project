@@ -194,3 +194,16 @@ I will try and record the CPU and RAM usage of quandenser, and maybe dial down t
 calculating a couple of mzML files (such as light/co2).
 
 PS: If we use Crux, we could use "Synechocystis_PCC6803.fasta" as the fasta database
+
+### 2018-12-05, 9:30
+
+I ran quandenser on "20170419_GM_Cyano_1000_R1_BC1_01_2485.mzML". It crashed after 6 hours.
+Looking at quandensers defaults, it uses 24GB by default, while my computer only has 16GB. Ill try to run it again
+
+### 2018-12-05, 10:30
+
+No matter what I do seems to make it work. When I try to run it on the file, it returns this
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded[INFO] [12/05/2018 08:40:36.719] [actor-system-scheduler-1] [ActorSystem(actor-system)] starting new LARS thread
+
+And that was when I set it to 16Gb of memory (using command "--dinosaur-memory 16G")

@@ -234,3 +234,12 @@ Also, I found a way to fix the gcc issue when compiling, by adding this line aft
 
 I tried it on a toy example, and it should work when compiling.
 
+
+### 18:00
+
+I found something called "OpenMS" which can split and handle mzML. I also found that it has Perculator included, which I thought was pretty neat. I'm installing it now.
+
+Running quandenser with dinosaur using 15Gb seems to work, it has calculated for about one hour without a crash, but is still on the first step.
+
+
+

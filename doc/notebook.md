@@ -228,7 +228,7 @@ mzML files.
 
 My group members have the same problem as me with the ram issue. I still haven't found a way to split the files.
 
-Also, I found a way to fix the gcc issue when compiling, by adding this line after line 78 in admin/builders/ubuntu64\_build
+Also, I found a way to fix the gcc issue when compiling, by adding this line after line 78 in admin/builders/ubuntu64\_build.sh
 
 	find ../lib -name '*gcc*' -exec bash -c ' gcc\_name="gcc$(gcc -dumpversion)"; mv $0 ${0/gcc/$gcc\_name}' {} \;
 

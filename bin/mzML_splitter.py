@@ -13,7 +13,7 @@ os.chdir(curr_dir)
 
 root = Tk()
 root.withdraw()
-filename_path =  filedialog.askopenfilename(initialdir = curr_dir, title = "Select file",filetypes = (("mzML files", "*.mzML"),("all files","*.*")))
+filename_path = filedialog.askopenfilename(initialdir = curr_dir, title = "Select file",filetypes = (("mzML files", "*.mzML"),("all files","*.*")))
 if filename_path == '':
     quit()
 filename = filename_path.split('/')[-1]

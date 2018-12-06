@@ -234,12 +234,24 @@ Also, I found a way to fix the gcc issue when compiling, by adding this line aft
 
 I tried it on a toy example, and it should work when compiling.
 
-
 ### 18:00
 
 I found something called "OpenMS" which can split and handle mzML. I also found that it has Perculator included, which I thought was pretty neat. I'm installing it now.
 
 Running quandenser with dinosaur using 15Gb seems to work, it has calculated for about one hour without a crash, but is still on the first step.
 
+
+
+2018-12-06
+----
+### 17:00
+
+We had a meeting in the group and discussed the how we should proceed with the project. We concluded that calculating everything from scratch is not reasonable at this rate and 
+that we'll look into MaxQuant while we look for solutions to the problems with Quandenser. We also finished the presentation for tomorrow.
+
+The OpenMS MzMLSplitter does not work with quandenser. The first problem is that a file of 2.6 Gb is split into many files with a total of about 4.5 Gb. The second problem is that 
+this solves the RAM issue with dinosaur, but it instead crashes on maracluster. Also, the dinosaur calculations with the splitted files are very slow.
+
+I'm making a simple script that splits mzML files, by using an example mzML file provided by PRIDE (the mzML example is in the data folder and the script in the bin folder)
 
 

@@ -260,3 +260,26 @@ I finshed the mzML splitter, it is spaghetticode in galore and really badly writ
 but the performance increase was negligible. Running the splitted files through quandenser seems to work with dinosaur at least, but it is extremely slow. Hopefully, it will get through maracluster as well.
 
 Perhaps I will split the example mzML files and compare the outputs to find any errors the split might have on the code (if the splitted files will go through quandenser)
+
+### 21:30
+
+The mzML splitter worked for dinosaur, which completed sucessfully. However, maracluster still crashes with output:
+
+maracluster batch --splitMassChargeStates --batch batch_list.txt --clusterThresholds -10.0 --pvalThreshold -10.0 --output-folder Quandenser_output/maracluster
+Started Thu Dec  6 21:33:45 2018
+
+	Splitting spectra by precursor Mz
+	Accumulating peak counts and precursor Mzs
+	  Processing   Processing split3_20170419_GM_Cyano_60_R2_BA2_01_2466.mzML (40%).
+	  Processing split6_20170419_GM_Cyano_60_R2_BA2_01_2466.mzML (70%).
+	  Processing split7_20170419_GM_Cyano_60_R2_BA2_01_2466.mzML (80%).
+	  Processing split2_20170419_GM_Cyano_60_R2_BA2_01_2466.mzML (30%).
+	split1_20170419_GM_Cyano_60_R2_BA2_01_2466.mzML (20%).
+	  Processing split4_20170419_GM_Cyano_60_R2_BA2_01_2466.mzML (50%).
+	  Processing split5_20170419_GM_Cyano_60_R2_BA2_01_2466.mzML (60%).
+	  Processing split0_20170419_GM_Cyano_60_R2_BA2_01_2466.mzML (10%).
+	terminate called recursively
+	terminate called recursively
+	Aborted (core dumped)
+	
+However, I noticed that the example mzML files all have one chromatogram, while the mzML from PRIDE does not. Is this the problem which causes the crashes in maracluster?

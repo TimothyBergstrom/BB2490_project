@@ -254,4 +254,9 @@ this solves the RAM issue with dinosaur, but it instead crashes on maracluster. 
 
 I'm making a simple script that splits mzML files, by using an example mzML file provided by PRIDE (the mzML example is in the data folder and the script in the bin folder)
 
+### 20:45
 
+I finshed the mzML splitter, it is spaghetticode in galore and really badly written, but it works. About 4 times slower than mzMLSplitter from OpenMS, but its a start. I tried to speed it up with C code in some parts,
+but the performance increase was negligible. Running the splitted files through quandenser seems to work with dinosaur at least, but it is extremely slow. Hopefully, it will get through maracluster as well.
+
+Perhaps I will split the example mzML files and compare the outputs to find any errors the split might have on the code (if the splitted files will go through quandenser)

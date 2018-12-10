@@ -288,3 +288,11 @@ However, I noticed that the example mzML files all have one chromatogram, while 
 
 I tried MaxQuant and can't get it to work either... I follow the instructions how to run it, but it crashes unexpectedly all the time. I tested on example mzML sets, it crashes. I try to open visualisation of data,
 it crashes. I tested on the tiny mzML test file from PRIDE, but that crashes it as well. I can't find any crash logs or anything like that which specifies why it crashes...
+
+
+2018-12-10
+----
+### 22:40
+
+We have booked a meeting with Michal Jahn tomorrow at 15:00. We will speak to him about the RAM problem. I have also tried to convert .baf to .mzML, but proteowizard and OpenMS doesn't have that capabilities.
+I tried to register an account on Bruker.com (aka the company that makes the ToF-MS used to generate the experiments) to download compassXport, but I have not received a confirmation mail yet.

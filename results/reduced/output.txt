@@ -1,0 +1,191 @@
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/BB2490# cd quandenser/
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/BB2490/quandenser# ls
+CMakeLists.txt  CommonCMake.txt  NOTICE     admin  ext             quickbuild.sh     src
+CPack.txt       LICENSE          ReadMe.md  cmake  quickbuild.bat  quickbuild64.bat
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/BB2490/quandenser# quandenser
+Error: one of the inputs is missing.
+Invoke with -h option for help.
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/BB2490/quandenser# cd ..
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/BB2490# ls
+build  quandenser  release
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/BB2490# cd ..
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads# cd mzML_reduced/
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/mzML_reduced# ls
+20170419_GM_Cyano_1000_R1_BC1_01_2485.mzML  20170419_GM_Cyano_300_R1_BB5_01_2480.mzML
+20170419_GM_Cyano_100_R1_BA5_01_2470.mzML   20170419_GM_Cyano_60_R1_BA1_01_2465.mzML
+20170419_GM_Cyano_200_R1_BB1_01_2475.mzML
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/mzML_reduced# clear
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/mzML_reduced# quandenser --batch batch.txt --dinosaur-memory 8G
+Quandenser version 0.01.0, Build Date Nov 27 2018 17:02:28
+Copyright (c) 2015-17 Matthew The. All rights reserved.
+Written by Matthew The (matthew.the@scilifelab.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+quandenser --batch batch.txt --dinosaur-memory 8G
+Started Tue Dec 11 16:33:05 2018
+
+Exception caught: (SpectrumFileList.cpp) could not open batch.txt
+
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/mzML_reduced# ls
+20170419_GM_Cyano_1000_R1_BC1_01_2485.mzML  20170419_GM_Cyano_300_R1_BB5_01_2480.mzML
+20170419_GM_Cyano_100_R1_BA5_01_2470.mzML   20170419_GM_Cyano_60_R1_BA1_01_2465.mzML
+20170419_GM_Cyano_200_R1_BB1_01_2475.mzML   Quandenser_output
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/mzML_reduced# quandenser --batch batch.txt --dinosaur-memory 8G
+Quandenser version 0.01.0, Build Date Nov 27 2018 17:02:28
+Copyright (c) 2015-17 Matthew The. All rights reserved.
+Written by Matthew The (matthew.the@scilifelab.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+quandenser --batch batch.txt --dinosaur-memory 8G
+Started Tue Dec 11 16:33:28 2018
+
+Processing "20170419_GM_Cyano_60_R1_BA1_01_2465.mzML" with Dinosaur.
+java -Xmx8G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/dinosaur 20170419_GM_Cyano_60_R1_BA1_01_2465.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: 20170419_GM_Cyano_60_R1_BA1_01_2465.mzML
+    out dir: Quandenser_output/dinosaur
+   out name: 20170419_GM_Cyano_60_R1_BA1_01_2465
+
+.                              .
+[==============================]all hills, n=322368
+hill checkSum = 66967946557954
+peaky hills, n=321516
+peaky hill checkSum = 66650936580317
+  nScans    nHills
+         2        0
+         3   181251
+         4    69814
+      5-10    60041
+     10-20     8100
+     20-50     2227
+    50-100       45
+   100-200       38
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+edges assembled
+clusters ripped, n=45257
+clusters deconvolved
+deisotoping complete
+isotopes, n=31990
+writing isotope pattern reports...
+isotope pattern reports written
+
+=== OUTPUT ===
+  writing global isotope pattern file Quandenser_output/dinosaur/20170419_GM_Cyano_60_R1_BA1_01_2465.features.tsv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:27.987
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:15.326
+          deisotope time: _ days __:_3:41.479
+ iso pattern report time: _ days __:__:__._10
+         mass calib time: _ days __:__:__.889
+              write time: _ days __:__:_1.272
+
+         deiso edge time: _ days __:_3:22.999
+          deiso rip time: _ days __:__:__.244
+       deiso deconv time: _ days __:__:18.231
+
+total time: _ days __:_4:34.852
+Processing "20170419_GM_Cyano_100_R1_BA5_01_2470.mzML" with Dinosaur.
+java -Xmx8G -jar /usr/share/java/Dinosaur-1.1.3.free.jar --force --concurrency=4 --profiling=true --nReport=0 --outDir=Quandenser_output/dinosaur 20170419_GM_Cyano_100_R1_BA5_01_2470.mzML
+Dinosaur 1.1.3    built:${maven.build.timestamp}
+  mzML file: 20170419_GM_Cyano_100_R1_BA5_01_2470.mzML
+    out dir: Quandenser_output/dinosaur
+   out name: 20170419_GM_Cyano_100_R1_BA5_01_2470
+
+.                              .
+[==============================]all hills, n=300630
+hill checkSum = 59816974743571
+peaky hills, n=299519
+peaky hill checkSum = 59444762355203
+  nScans    nHills
+         2        0
+         3   168762
+         4    64023
+      5-10    56373
+     10-20     8040
+     20-50     2209
+    50-100       88
+   100-200       24
+   200-500        0
+  500-1000        0
+ 1000-2000        0
+ 2000-5000        0
+5000-10000        0
+    >10000        0
+writing hill reports...
+hill reports written
+edges assembled
+clusters ripped, n=40492
+clusters deconvolved
+deisotoping complete
+isotopes, n=27815
+writing isotope pattern reports...
+isotope pattern reports written
+
+=== OUTPUT ===
+  writing global isotope pattern file Quandenser_output/dinosaur/20170419_GM_Cyano_100_R1_BA5_01_2470.features.tsv
+
+=== PROFILING ===
+         mzml parse time: _ days __:__:31.484
+           centroid time: _ days __:__:__.___
+        hill report time: _ days __:__:15.432
+          deisotope time: _ days __:_3:02.448
+ iso pattern report time: _ days __:__:__._12
+         mass calib time: _ days __:__:__.694
+              write time: _ days __:__:_1.245
+
+         deiso edge time: _ days __:_2:45.436
+          deiso rip time: _ days __:__:__.222
+       deiso deconv time: _ days __:__:16.784
+
+total time: _ days __:_3:52.734
+Read in 31990 features from "20170419_GM_Cyano_60_R1_BA1_01_2465.features.tsv"
+Read in 27815 features from "20170419_GM_Cyano_100_R1_BA5_01_2470.features.tsv"
+MaRaCluster version 0.05.nightly-3-f4d48a9, Build Date Nov 27 2018 17:01:56
+Copyright (c) 2015-17 Matthew The. All rights reserved.
+Written by Matthew The (matthew.the@scilifelab.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+maracluster batch --splitMassChargeStates --batch batch.txt --clusterThresholds -10.0 --pvalThreshold -10.0 --output-folder Quandenser_output/maracluster
+Started Tue Dec 11 16:41:59 2018
+
+Splitting spectra by precursor Mz
+Accumulating peak counts and precursor Mzs
+  Processing 20170419_GM_Cyano_100_R1_BA5_01_2470.mzML (100%).
+  Processing 20170419_GM_Cyano_60_R1_BA1_01_2465.mzML (50%).
+Segmentation fault (core dumped)
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/mzML_reduced# quandenser --batch batch.txt --dinosaur-memory 8G
+Quandenser version 0.01.0, Build Date Nov 27 2018 17:02:28
+Copyright (c) 2015-17 Matthew The. All rights reserved.
+Written by Matthew The (matthew.the@scilifelab.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+quandenser --batch batch.txt --dinosaur-memory 8G
+Started Tue Dec 11 16:42:58 2018
+
+Already processed "20170419_GM_Cyano_60_R1_BA1_01_2465.mzML" with Dinosaur.
+Already processed "20170419_GM_Cyano_100_R1_BA5_01_2470.mzML" with Dinosaur.
+Read in 31990 features from "20170419_GM_Cyano_60_R1_BA1_01_2465.features.tsv"
+Read in 27815 features from "20170419_GM_Cyano_100_R1_BA5_01_2470.features.tsv"
+MaRaCluster version 0.05.nightly-3-f4d48a9, Build Date Nov 27 2018 17:01:56
+Copyright (c) 2015-17 Matthew The. All rights reserved.
+Written by Matthew The (matthew.the@scilifelab.se) in the
+School of Biotechnology at the Royal Institute of Technology in Stockholm.
+Issued command:
+maracluster batch --splitMassChargeStates --batch batch.txt --clusterThresholds -10.0 --pvalThreshold -10.0 --output-folder Quandenser_output/maracluster
+Started Tue Dec 11 16:42:58 2018
+
+Splitting spectra by precursor Mz
+Accumulating peak counts and precursor Mzs
+  Processing 20170419_GM_Cyano_60_R1_BA1_01_2465.mzML (50%).
+  Processing 20170419_GM_Cyano_100_R1_BA5_01_2470.mzML (100%).
+Segmentation fault (core dumped)
+root@LAPTOP-RHD66J7P:/mnt/c/users/timot/Downloads/mzML_reduced#

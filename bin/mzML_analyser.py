@@ -29,11 +29,18 @@ amount_of_spectrum_indices = 0
 amount_of_chromatogram_indices = 0
 indices_spectrum = False
 indices_chromatogram = False
+id_list_spectrum = []
+id_indices_list_spectrum = []
 compiled_regex_idRef = re.compile('idRef="(.+?)"')
+compiled_regex_id = re.compile('id="(.+?)"')
 for line in open(filename_path, 'rb'):
     amount_of_lines += 1
     if b"<spectrum " in line:  # blankspace is important
         amount_of_spectrum += 1
+        m = compiled_regex_id.search(line.decode('utf-8'))
+        found = m.group(1)
+        if found is not None:
+            id_list_spectrum.append(found)
     elif b"<chromatogram " in line:  # blankspace is important
         amount_of_chromatogram += 1
     if b'<index name="spectrum"' in line:
@@ -46,6 +53,7 @@ for line in open(filename_path, 'rb'):
             found = m.group(1)
             if found is not None:
                 amount_of_spectrum_indices += 1
+                id_indices_list_spectrum.append(found)
     if b'<index name="chromatogram"' in line:
         indices_chromatogram = True
     elif b"</index>" in line:
@@ -62,3 +70,13 @@ print(f"{amount_of_spectrum} spectrums and {amount_of_chromatogram} chromatogram
 print(f"{amount_of_spectrum_indices} indices for spectrum")
 print(f"{amount_of_chromatogram_indices} indices for chromatogram")
 print(f"it took {round(time.time() - start_time, 2)} seconds with Python")
+
+"""
+with open("id_list_spectrum.txt", 'w') as file:
+    for ID in id_list_spectrum:
+        file.write(ID)
+
+with open("id_indices_list_spectrum.txt", 'w') as file:
+    for ID in id_indices_list_spectrum:
+        file.write(ID)
+"""

@@ -305,3 +305,7 @@ I tried to register an account on Bruker.com (aka the company that makes the ToF
 We had our meeting with Michael Jahn today and had a tour in the lab. He also gave us a reduced mzML data set, which seems to not be compatible with quandenser (it crashed on maracluster, like the last time, the output is added to the results/reduced folder).
 We don't know which problem causes it, but it seems that using Comet to analyse the mzML files agaisnt the database, it returns nothing (aka no matches), which might be the problem.
 Michael he showed us some tools we could use to create a pipeline for analysing the data using KNIME and OpenMS. Hopefully, we can get some of it working this week or during the winter break.
+
+### 22:40
+
+Using a retention window of the mzML files from 3600 seconds to 4800 seconds (aka start 1 hour into the MS and 20 minutes forwards) crashed on maracluster, as before. Using Cruxadapter and MSGFPlusAdapter didn't work. Perhaps I set them up wrong in KNIME.

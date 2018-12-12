@@ -354,6 +354,7 @@ http://ftp.mi.fu-berlin.de/pub/OpenMS/release1.9-documentation/html/TOPP_FileFil
 I used the XMLValidator tool from OpenMS and tested on the mzML files from PRIDE and the files which had gone through the FileFilter.
 
 FROM PRIDE
+
 	Validating mzML file against schema version 1.1.0
 	Validation error in file '20170419_GM_Cyano_60_R2_BA2_01_2466.mzML' line 50 column 25: missing elements in content model '(source+,analyzer+,detector+)'
 	Validation error in file '20170419_GM_Cyano_60_R2_BA2_01_2466.mzML' line 8463047 column 13: empty content is not valid for content model '(offset+)'
@@ -362,6 +363,7 @@ FROM PRIDE
 	
 	
 GONE THROUGH FILEFILTER
+
 	Validating mzML file against schema version 1.1.0
 	Success: the file is valid!
 	XMLValidator took 01:02 m (wall), 01:02 m (CPU), 0.94 s (system), 01:01 m (user).

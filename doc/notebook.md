@@ -345,3 +345,5 @@ FILTERED
 
 Secondly, running the Filtered mzML files through MSFGPlusAdapter doesn't work, even if I set the retention time to the same window as the source. This means that the root to our problems seems to lie when we are trying to reduce the mzML files.
 Perhaps there is a setting in the FileFilter which I missed. I will check on it.
+
+http://ftp.mi.fu-berlin.de/pub/OpenMS/release1.9-documentation/html/TOPP_FileFilter.html 

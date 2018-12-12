@@ -329,8 +329,8 @@ it took 31.99 seconds with Python
 
 FILTERED mzML 5.2 Gb (retention time 1 second to max retention time)
 Counted 7661099 lines
-168284 spectrums and 0 chromatograms
-168284 indices for spectrum
+168298 spectrums and 0 chromatograms
+168298 indices for spectrumm
 0 indices for chromatogram
 it took 40.22 seconds with Python
 

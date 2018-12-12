@@ -309,3 +309,39 @@ Michael he showed us some tools we could use to create a pipeline for analysing 
 ### 22:40
 
 Using a retention window of the mzML files from 3600 seconds to 4800 seconds (aka start 1 hour into the MS and 20 minutes forwards) crashed on maracluster, as before. Using Cruxadapter and MSGFPlusAdapter didn't work. Perhaps I set them up wrong in KNIME.
+
+
+2018-12-12
+----
+### 12:00
+
+I found something that might create the problem. Using the mzML files (full retention time) through MSFGPlusAdapter works fine and I get an output.
+However, when I set the retention time to from start to max retention time of the mzML file using "FileFilter" in OpenMS, I get some strange results.
+
+Firstly, the file size doubles (from 2.6 Gb to 5.2 Gb). Using the mzML analyser script that I created, I get these outputs:
+
+NON-FILTERED mzML 2.6 Gb (the files from PRIDE)
+Counted 8463051 lines
+168298 spectrums and 0 chromatograms
+168298 indices for spectrum
+0 indices for chromatogram
+it took 31.99 seconds with Python
+
+FILTERED mzML 5.2 Gb (retention time 1 second to max retention time)
+Counted 7661099 lines
+168284 spectrums and 0 chromatograms
+168284 indices for spectrum
+0 indices for chromatogram
+it took 40.22 seconds with Python
+
+The filtered has a larger file size, even though the amount of lines in the file is less than the other. Perhaps something is wrong with my script, but counting lines in files should always be the same, so maybe each line is larger.
+A made a quick script to get average line lengths, and that seems to be the case.
+
+NON-FILTERED
+311.901 is the average line length
+
+FILTERED
+681.027 is the average line length
+
+Secondly, running the Filtered mzML files through MSFGPlusAdapter doesn't work, even if I set the retention time to the same window as the source. This means that the root to our problems seems to lie when we are trying to reduce the mzML files.
+Perhaps there is a setting in the FileFilter which I missed. I will check on it.

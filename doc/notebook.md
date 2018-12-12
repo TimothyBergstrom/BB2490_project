@@ -347,3 +347,23 @@ Secondly, running the Filtered mzML files through MSFGPlusAdapter doesn't work, 
 Perhaps there is a setting in the FileFilter which I missed. I will check on it.
 
 http://ftp.mi.fu-berlin.de/pub/OpenMS/release1.9-documentation/html/TOPP_FileFilter.html 
+
+
+### 18:00
+
+I used the XMLValidator tool from OpenMS and tested on the mzML files from PRIDE and the files which had gone through the FileFilter.
+
+FROM PRIDE
+	Validating mzML file against schema version 1.1.0
+	Validation error in file '20170419_GM_Cyano_60_R2_BA2_01_2466.mzML' line 50 column 25: missing elements in content model '(source+,analyzer+,detector+)'
+	Validation error in file '20170419_GM_Cyano_60_R2_BA2_01_2466.mzML' line 8463047 column 13: empty content is not valid for content model '(offset+)'
+	Failed: errors are listed above!
+	XMLValidator took 01:06 m (wall), 01:06 m (CPU), 1.00 s (system), 01:05 m (user).
+	
+	
+GONE THROUGH FILEFILTER
+	Validating mzML file against schema version 1.1.0
+	Success: the file is valid!
+	XMLValidator took 01:02 m (wall), 01:02 m (CPU), 0.94 s (system), 01:01 m (user).
+	
+I also parsed through the files quickly and compared them. It seems that the FileFilter changes the files slightly, but I cannot spot what the change is that makes MSFGPlusAdapter crash.

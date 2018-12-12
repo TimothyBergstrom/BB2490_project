@@ -369,3 +369,8 @@ GONE THROUGH FILEFILTER
 	XMLValidator took 01:02 m (wall), 01:02 m (CPU), 0.94 s (system), 01:01 m (user).
 	
 I also parsed through the files quickly and compared them. It seems that the FileFilter changes the files slightly, but I cannot spot what the change is that makes MSFGPlusAdapter crash.
+
+### 18:30
+
+If I enabled "zlib compression" in the FileFilter, the file sizes become comparable to the source files.
+I also compared the files with FileInfo (a module in OpenMS) and the one results are exactly the same for the source files and the files which had gone through FileFilter (added to results/2018-12-12_FileInfo_comparsion)

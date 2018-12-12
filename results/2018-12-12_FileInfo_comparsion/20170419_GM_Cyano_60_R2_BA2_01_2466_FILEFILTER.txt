@@ -1,0 +1,43 @@
+
+-- General information --
+
+File name: D:\Downloads\BB2490\data\TEST\Window\20170419_GM_Cyano_60_R2_BA2_01_2466.mzML
+File type: mzML
+
+MS levels: 1, 2
+Number of spectra: 168298
+Number of peaks: 297147414
+
+Number of spectra per MS level:
+  level 1: 8015
+  level 2: 160283
+
+Ranges:
+  retention time: 0.30 .. 9000.80
+  mass-to-charge: 144.74 .. 2205.12
+  intensity:      14.00 .. 10158638.00
+
+Peak type metadata (estimated)
+  level 1: Centroid (Centroid)
+  level 2: Centroid (Centroid)
+
+-- Meta information --
+
+Document ID:        
+Date:               2017-04-19 15:41:13
+
+Sample:
+  name:             
+  organism:         
+  comment:          
+
+Instrument:
+  name:             Bruker Daltonics instrument model
+  model:            
+  vendor:           
+  ion source(s):    Nano electrospray ionization
+  mass analyzer(s): Cyclotron
+  detector(s):      channeltron
+
+
+

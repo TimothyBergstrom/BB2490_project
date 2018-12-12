@@ -1,11 +1,6 @@
 import os
 from tkinter import filedialog, Tk
 import time
-try:
-    import progressbar
-except:
-    print("Progressbar not installed, install with:")
-    print("pip install progressbar2")
 import re
 
 curr_dir = os.path.dirname(os.path.realpath(__file__))
@@ -29,18 +24,14 @@ amount_of_spectrum_indices = 0
 amount_of_chromatogram_indices = 0
 indices_spectrum = False
 indices_chromatogram = False
-id_list_spectrum = []
-id_indices_list_spectrum = []
+line_lengths = []
 compiled_regex_idRef = re.compile('idRef="(.+?)"')
 compiled_regex_id = re.compile('id="(.+?)"')
 for line in open(filename_path, 'rb'):
     amount_of_lines += 1
+    line_lengths.append(len(line))
     if b"<spectrum " in line:  # blankspace is important
         amount_of_spectrum += 1
-        m = compiled_regex_id.search(line.decode('utf-8'))
-        found = m.group(1)
-        if found is not None:
-            id_list_spectrum.append(found)
     elif b"<chromatogram " in line:  # blankspace is important
         amount_of_chromatogram += 1
     if b'<index name="spectrum"' in line:
@@ -49,34 +40,18 @@ for line in open(filename_path, 'rb'):
         indices_spectrum = False
     if indices_spectrum:
         if b'<offset idRef' in line:
-            m = compiled_regex_idRef.search(line.decode('utf-8'))
-            found = m.group(1)
-            if found is not None:
-                amount_of_spectrum_indices += 1
-                id_indices_list_spectrum.append(found)
+            amount_of_spectrum_indices += 1
     if b'<index name="chromatogram"' in line:
         indices_chromatogram = True
     elif b"</index>" in line:
         indices_chromatogram = False
     if indices_chromatogram:
         if b'<offset idRef' in line:
-            m = compiled_regex_idRef.search(line.decode('utf-8'))
-            found = m.group(1)
-            if found is not None:
-                amount_of_chromatogram_indices += 1
+            amount_of_chromatogram_indices += 1
 
 print(f"Counted {amount_of_lines} lines")
 print(f"{amount_of_spectrum} spectrums and {amount_of_chromatogram} chromatograms")
 print(f"{amount_of_spectrum_indices} indices for spectrum")
 print(f"{amount_of_chromatogram_indices} indices for chromatogram")
+print(f"{round(sum(line_lengths)/len(line_lengths), 3)} is the average line length")
 print(f"it took {round(time.time() - start_time, 2)} seconds with Python")
-
-"""
-with open("id_list_spectrum.txt", 'w') as file:
-    for ID in id_list_spectrum:
-        file.write(ID)
-
-with open("id_indices_list_spectrum.txt", 'w') as file:
-    for ID in id_indices_list_spectrum:
-        file.write(ID)
-"""

@@ -1,0 +1,44 @@
+root@DESKTOP-NUGQV58:/mnt/d/Downloads/BB2490/data/mzML_reduced# ./triqler.sh
+Processing cluster 10000
+Processing cluster 20000
+Processing cluster 30000
+Processing cluster 40000
+Processing cluster 50000
+Processing cluster 60000
+Processing cluster 70000
+Processing cluster 80000
+Processing cluster 90000
+Processing cluster 100000
+Processing cluster 110000
+Processing cluster 120000
+Processing cluster 130000
+Processing cluster 140000
+Processing cluster 150000
+Processing cluster 160000
+Processing cluster 170000
+Processing cluster 180000
+Processing cluster 190000
+Processing cluster 200000
+Processing cluster 210000
+Processing cluster 220000
+Processing cluster 230000
+Processing cluster 240000
+Processing cluster 250000
+Writing Quandenser_output/Quandenser.feature_groups.normalized.tsv
+Traceback (most recent call last):
+  File "prepare_input.py", line 119, in <module>
+    main(sys.argv[1:])
+  File "prepare_input.py", line 43, in main
+    normalize.normalizeIntensitiesRtimeBased(clusterQuantFile, clusterQuantFileNormalized)
+  File "/mnt/d/Downloads/BB2490/data/mzML_reduced/normalize_intensities.py", line 24, in normalizeIntensitiesRtimeBased
+    normalizeIntensitiesWithFactorArrays(clusterQuantExtraFile, rTimeFactorArrays, clusterQuantExtraNormalizedFile)
+  File "/mnt/d/Downloads/BB2490/data/mzML_reduced/normalize_intensities.py", line 72, in normalizeIntensitiesWithFactorArrays
+    rTimeIndex = min([bisect.bisect_left(rTimeArrays[row.fileName], row.rTime), len(rTimeArrays[row.fileName]) - 1])
+KeyError: '2'
+Triqler version 0.1.4
+Copyright (c) 2018 Matthew The. All rights reserved.
+Written by Matthew The (matthew.the@scilifelab.se) in the
+School of Engineering Sciences in Chemistry, Biotechnology and Health at the
+Royal Institute of Technology in Stockholm.
+
+Could not locate input file triqler_input.tsv. Check if the path to the input file is correct.

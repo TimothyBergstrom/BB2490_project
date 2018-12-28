@@ -374,3 +374,10 @@ I also parsed through the files quickly and compared them. It seems that the Fil
 
 If I enabled "zlib compression" in the FileFilter, the file sizes become comparable to the source files.
 I also compared the files with FileInfo (a module in OpenMS) and the one results are exactly the same for the source files and the files which had gone through FileFilter (added to results/2018-12-12_FileInfo_comparsion)
+
+
+2018-12-28
+----
+### 13:30
+
+Got back from the winter break and can now work on the project

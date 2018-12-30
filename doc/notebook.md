@@ -381,3 +381,10 @@ I also compared the files with FileInfo (a module in OpenMS) and the one results
 ### 13:30
 
 Got back from the winter break and can now work on the project
+
+
+2018-12-30
+----
+### 20:00
+I uploaded a new KNIME workflow in the bin/KNIME folder, which considers only matches with FDR < 0.01, which uses a generated DecoyDatabase.
+It seems to work fine. I get less matches with FDR, but that is expected. I will try to run it on all the samples (I took scan time 3000 - 4800 on every replicate1 for all points)

@@ -388,3 +388,30 @@ Got back from the winter break and can now work on the project
 ### 20:00
 I uploaded a new KNIME workflow in the bin/KNIME folder, which considers only matches with FDR < 0.01, which uses a generated DecoyDatabase.
 It seems to work fine. I get less matches with FDR, but that is expected. I will try to run it on all the samples (I took scan time 3000 - 4800 on every replicate1 for all points)
+
+
+2018-12-31
+----
+### 18:00
+I finished the calculations of KNIME with MSGFPlusAdapter, CometAdapter and CruxAdapter with FDR < 0.01. I am now doing the calculations on quandenser, but I was met by a strange crash.
+Calculations were made in 6 files in dinosaur (when "hill reports" are being written), but I got this error message:
+
+	 A fatal error has been detected by the Java Runtime Environment:
+	
+	  SIGSEGV (0xb) at pc=0x00007f6d61026313, pid=226, tid=0x00007f6d4fbd0700
+	
+	 JRE version: Java(TM) SE Runtime Environment (8.0_191-b12) (build 1.8.0_191-b12)
+	 Java VM: Java HotSpot(TM) 64-Bit Server VM (25.191-b12 mixed mode linux-amd64 compressed oops)
+	 Problematic frame:
+	 j  scala.runtime.BoxesRunTime.unboxToDouble(Ljava/lang/Object;)D+9
+	
+	 Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+	
+	 An error report file with more information is saved as:
+	 /mnt/d/Downloads/BB2490/data/mzML_reduced_own/Quandenser/hs_err_pid226.log
+	
+	 If you would like to submit a bug report, please visit:
+	   http://bugreport.java.com/bugreport/crash.jsp
+	   
+I put the whole error message in results/2018-12-31_dinosaur_weird_crash. Perhaps something went wrong with the file.
+The file I used was "20180112_60_ja8_r1_GE2_01_5509.mzML"

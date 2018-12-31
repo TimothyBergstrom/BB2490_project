@@ -415,3 +415,7 @@ Calculations were made in 6 files in dinosaur (when "hill reports" are being wri
 	   
 I put the whole error message in results/2018-12-31_dinosaur_weird_crash. Perhaps something went wrong with the file.
 The file I used was "20180112_60_ja8_r1_GE2_01_5509.mzML"
+
+### 18:50
+I reran the program and it got through the failed file, but now it crashed on 4 after that file, but the crash code was different. What might be the problem?
+I have uploaded both crash files and also the batch file

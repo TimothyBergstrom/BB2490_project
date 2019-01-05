@@ -452,3 +452,13 @@ Second crash: Groupnames are entered correctly, no empty lines and everything we
 	  File "/usr/local/lib/python2.7/dist-packages/numpy/lib/function_base.py", line 461, in asarray_chkfinite
 		"array must not contain infs or NaNs")
 	ValueError: array must not contain infs or NaNs
+	
+2019-01-05
+----
+### 15:30
+I have changed the knime pipeline to output idXML files, which are then used in a module I found called "ProteinQuantifier".
+I'm running the workflow as I write this and has gotten some results with the CruxAdapter. The scan time used was from 3000 to 4200 in Msconvert
+
+Data uploaded to results/2019-01-05_knime_results
+
+However, I need some time to go through the data

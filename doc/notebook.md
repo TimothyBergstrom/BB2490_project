@@ -462,3 +462,8 @@ I'm running the workflow as I write this and has gotten some results with the Cr
 Data uploaded to results/2019-01-05_knime_results
 
 However, I need some time to go through the data
+
+
+### 17:30
+Finished the quantification calculations on the other adapters and also uploaded the KNIME workflow in bin/KNIME. The problem with triqler
+might come from using a subset of data, since some values gives NaN.

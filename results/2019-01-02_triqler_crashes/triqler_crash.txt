@@ -1,0 +1,18 @@
+Error, no group names entered
+
+Traceback (most recent call last):
+  File "prepare_input.py", line 119, in <module>
+    main(sys.argv[1:])
+  File "prepare_input.py", line 48, in main
+    fileList, params['groups'], params['groupLabels'] = parsers.parseFileList(fileListFile)
+  File "/usr/local/lib/python2.7/dist-packages/triqler/parsers.py", line 29, in parseFileList
+    if row[1] not in groupNames:
+IndexError: list index out of range
+Triqler version 0.1.4
+Copyright (c) 2018 Matthew The. All rights reserved.
+Written by Matthew The (matthew.the@scilifelab.se) in the
+School of Engineering Sciences in Chemistry, Biotechnology and Health at the
+Royal Institute of Technology in Stockholm.
+
+Parsing triqler input file
+ERROR: No decoy hits found, check if the correct decoy prefix was specified with the --decoy_pattern flag

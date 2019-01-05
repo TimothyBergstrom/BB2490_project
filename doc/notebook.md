@@ -418,4 +418,37 @@ The file I used was "20180112_60_ja8_r1_GE2_01_5509.mzML"
 
 ### 18:50
 I reran the program and it got through the failed file, but now it crashed on 4 after that file, but the crash code was different. What might be the problem?
-I have uploaded both crash files and also the batch file
+I have uploaded both crash files and also the batch file.
+
+
+2019-01-02
+----
+### 18:00
+2 crashes found in triqler.
+First crash: batch_list.txt need a group name and also cannot end with an empty line (crashes the parser in triqler, after some debugging)
+Second crash: Groupnames are entered correctly, no empty lines and everything went through quandenser and crux correctly. Gives this:
+
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+		"__main__", fname, loader, pkg_name)
+	  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+		exec code in run_globals
+	  File "/usr/local/lib/python2.7/dist-packages/triqler/__main__.py", line 8, in <module>
+		main()
+	  File "/usr/local/lib/python2.7/dist-packages/triqler/triqler.py", line 36, in main
+		runTriqler(params, args.in_file, args.out_file)
+	  File "/usr/local/lib/python2.7/dist-packages/triqler/triqler.py", line 104, in runTriqler
+		diff_exp.doDiffExp(params, peptQuantRows, triqlerOutputFile, getPickedProteinCalibration, selectComparisonBayesTmp, qvalMethod = qvalMethod)
+	  File "/usr/local/lib/python2.7/dist-packages/triqler/diff_exp.py", line 17, in doDiffExp
+		proteinOutputRows = proteinQuantificationMethod(peptQuantRows, params, proteinModifier, getEvalFeatures)
+	  File "/usr/local/lib/python2.7/dist-packages/triqler/triqler.py", line 339, in getPickedProteinCalibration
+		hyperparameters.fitPriors(peptQuantRows, params) # updates priors
+	  File "/usr/local/lib/python2.7/dist-packages/triqler/hyperparameters.py", line 63, in fitPriors
+		fitDist(protStdevsInGroup, funcGamma, "stdev log10(protein diff in group)", ["shapeInGroupStdevs", "scaleInGroupStdevs"], params, plot, x = np.arange(-0.1, 1.0, 0.005))
+	  File "/usr/local/lib/python2.7/dist-packages/triqler/hyperparameters.py", line 110, in fitDist
+		popt, _ = curve_fit(func, bins, vals)
+	  File "/usr/local/lib/python2.7/dist-packages/scipy/optimize/minpack.py", line 710, in curve_fit
+		ydata = np.asarray_chkfinite(ydata)
+	  File "/usr/local/lib/python2.7/dist-packages/numpy/lib/function_base.py", line 461, in asarray_chkfinite
+		"array must not contain infs or NaNs")
+	ValueError: array must not contain infs or NaNs

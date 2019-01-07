@@ -467,3 +467,36 @@ However, I need some time to go through the data
 ### 17:30
 Finished the quantification calculations on the other adapters and also uploaded the KNIME workflow in bin/KNIME. The problem with triqler
 might come from using a subset of data, since some values gives NaN.
+
+
+2019-01-07
+----
+### 14:40
+Michael mailed us about our workflow with KNIME and discovered that we used ProteinQuantifier using the parameters "top" as 3 and "average" as median.
+He suggested that we use 0 and sum, which I have corrected.
+
+Since we had so much problems with quandenser, I decided that I would just use KNIME. After some calculations overnight and some fixing today,
+I've discovered something which we could use in the future.
+
+To run "PercolatorAdapter" which Michael suggested, it seemed that it needed the full mzML files (the reduced files made it crash). After upping the
+RAM usage to the limit on my computer, I made it go through. By only using the first replicate on each light level and co2 level, I finished quantifying
+MSGFPlusAdapter with FDR filter, MSGFPlusAdapter with percolator and CometAdapter. I'll upload them later.
+
+One problem with CruxAdapter when running the full files was that after running for about 2 minutes, it crashes with the error message "Syntax error parsing XML".
+Since I had Crux already installed on my computer, I tried to find what the problem was. However, it worked actually quite fine.
+
+I used these commands:
+
+	crux tide-index --missed-cleavages 2 --mods-spec 2M+15.9949 --decoy-format protein-reverse ../Synechocystis_PCC6803.fasta Synechocystis_PCC6803.fasta.index
+	crux tide-search --precursor-window 20 --precursor-window-type ppm --concat T $file Synechocystis_PCC6803.fasta.index
+	crux percolator --top-match 1 crux-output/tide-search.txt
+	crux psm-convert crux-output/percolator.target.psms.txt pepxml
+	
+The commands are reused from the triqler post-processing workflow.
+
+This converts the percolator output (which is used in Crux) and converts it to a pepXML file, which I can use in KNIME in IDFileConverter to get idXML files, which is used
+with PeptideIndexer as the other files. The output seems to pass through ProteinQuantifier and we actually get some output!
+
+I have no idea if this method is actually valid, since the convertion process might lose some data. However, this might be the only way I can get it to run with Crux.
+
+The last problem we have is that we need to go through the data and make some nice plots for the poster. I have also made a mockup of the poster which our group can use.

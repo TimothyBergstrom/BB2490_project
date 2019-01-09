@@ -500,3 +500,11 @@ with PeptideIndexer as the other files. The output seems to pass through Protein
 I have no idea if this method is actually valid, since the convertion process might lose some data. However, this might be the only way I can get it to run with Crux.
 
 The last problem we have is that we need to go through the data and make some nice plots for the poster. I have also made a mockup of the poster which our group can use.
+
+
+2019-01-09
+----
+### 20:00
+We have almost completely finished the poster now and have gotten some results. Michael Jahn provided us a file containing two replicates for each points, which we used to 
+calculate the log2 ratio for a couple of protein sectors. In the results/2019-01-09_knime_results are some of the results. I created 2 scripts used for comparing the search engines
+(aka how many peptides identified in a bar plot) and a script that merges an annotated file with another, creating a plot with matplotlib which show the general trend of the protein abundances.

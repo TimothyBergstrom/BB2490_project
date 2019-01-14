@@ -508,3 +508,27 @@ The last problem we have is that we need to go through the data and make some ni
 We have almost completely finished the poster now and have gotten some results. Michael Jahn provided us a file containing two replicates for each points, which we used to 
 calculate the log2 ratio for a couple of protein sectors. In the results/2019-01-09_knime_results are some of the results. I created 2 scripts used for comparing the search engines
 (aka how many peptides identified in a bar plot) and a script that merges an annotated file with another, creating a plot with matplotlib which show the general trend of the protein abundances.
+
+
+2019-01-14
+----
+### 18:40
+This will be the last entry for the project.
+
+The poster has been uploaded on the canvas group page at:
+
+https://kth.instructure.com/groups/59796/pages/poster-g2
+
+Dropbox link if you don't have access:
+
+https://www.dropbox.com/s/thqehol7e7uoj0u/BB2940_group_2_poster%20%281%29.pdf?dl=0
+
+The poster has also been added to results/2019-01-14_poster
+
+If I were to evaluate our poster after the poster presentation, I believe that the poster would have been better with less text and also have included our mail adresses.
+Another point is that for MSGFPlusAdapter + Percolator in fig 3 seems to be not correct, since the idXML files for MSGFPlusAdapter are much smaller than with Percolator --> more peptides.
+Perhaps the problem was with the ProteinQuantifier, where wrong files were used.
+
+For figure 4 to 7, a fixed x axis would have been benifitial (as Michael mentioned), since the values for light were 60, 100, 200, 300 and 1000, the first 3 are too close, meaning the plots would be "squished together"
+
+Thinking back on the project, even though everything went slow and we got some weird results, I think that processing MS data was interesting, and having a functional pipeline could be benifitial in the future.
